@@ -13,29 +13,32 @@ namespace SpeedTaxi.Player
         #region PLAYERSTATE METHODS
         public override void InitializeSubState()
         {
-            throw new System.NotImplementedException();
+            if (Ctx.Inputs.Accelerate > 0.05f || Ctx.Inputs.Accelerate < -0.05f)
+                SetSubState(Factory.Accelerate());
+            else if (Ctx.Inputs.Accelerate <= 0.05f || Ctx.Inputs.Accelerate >= -0.05f)
+                SetSubState(Factory.Idle());
         }
         public override void EnterState()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public override void ExitState()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override void CheckSwitchStates()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public override void UpdateState()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override void FixedUpdateState()
         {
-            throw new System.NotImplementedException();
+            
         }
         #endregion
     }

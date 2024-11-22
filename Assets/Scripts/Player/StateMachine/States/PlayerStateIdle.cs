@@ -10,29 +10,33 @@ namespace SpeedTaxi.Player
 
         public override void InitializeSubState()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override void EnterState()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public override void ExitState()
         {
-            throw new System.NotImplementedException();
+            
         }
         public override void CheckSwitchStates()
         {
-            throw new System.NotImplementedException();
+            if (Ctx.Inputs.Accelerate > 0.05f || Ctx.Inputs.Accelerate < -0.05f)
+                SwitchState(Factory.Accelerate());
         }
 
         public override void UpdateState()
         {
-            throw new System.NotImplementedException();
+            CheckSwitchStates();
+
+            Ctx.VehiclePhysics.EngineInput = Ctx.Inputs.Accelerate;
+            Ctx.VehiclePhysics.WheelsInput = Ctx.Inputs.Steer;
         }
         public override void FixedUpdateState()
         {
-            throw new System.NotImplementedException();
+            
         }
         #endregion
     }

@@ -14,6 +14,7 @@ namespace SpeedTaxi.Vehicle
         [Range(-1f, 1f)]
         private float _wheelsInput = 0f;
 
+        // -----> ACCELERATION
         // Maximum move speed achieved by vehicle
         private float _maxMoveSpeed = 50f;
         // Maximum move speed in R gear
@@ -28,6 +29,10 @@ namespace SpeedTaxi.Vehicle
         private float _brakeForce = 35f;
         // Inertia Deceleration Factor in units per second
         private float _inertiaDecelerationFactor = 5f;
+
+        // -----> ROTATION
+        // Amount of rotation per second
+        private float _steerSpeed = 50f;
         #endregion
 
         #region PROPERTIES
@@ -56,6 +61,7 @@ namespace SpeedTaxi.Vehicle
 
         public void FixedUpdate()
         {
+            ResolveHandBrake();
             ResolveEngine();
             ResolveWheels();
         }
@@ -108,8 +114,8 @@ namespace SpeedTaxi.Vehicle
                 }
                 else // Stop
                 {
-                    _vehicleRigidbody.linearVelocity = Vector3.zero;
                     _currentMoveSpeed = 0f;
+                    _vehicleRigidbody.linearVelocity = Vector3.zero;
                 }
             }
         }
@@ -118,15 +124,19 @@ namespace SpeedTaxi.Vehicle
         {
             if (WheelsInput >= 0.05f)
             {
-
+                float steerAmount = _steerSpeed * Time.fixedDeltaTime;
+                Quaternion targetRotation = _vehicleRigidbody.transform.rotation * Quaternion.Euler(0, steerAmount, 0);
+                _vehicleRigidbody.MoveRotation(targetRotation);
             }
             else if (WheelsInput <= -0.05f)
             {
-
+                float steerAmount = _steerSpeed * Time.fixedDeltaTime;
+                Quaternion targetRotation = _vehicleRigidbody.transform.rotation * Quaternion.Euler(0, -steerAmount, 0);
+                _vehicleRigidbody.MoveRotation(targetRotation);
             }
             else
             {
-
+                _vehicleRigidbody.angularVelocity = Vector3.zero;
             }
         }
         #endregion

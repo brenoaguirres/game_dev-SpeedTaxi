@@ -28,15 +28,27 @@ namespace SpeedTaxi.Player
             get { return _playerInputs; }
             set { _playerInputs = value; }
         }
+
+        public Rigidbody Rigidbody
+        {
+            get { return _rigidbody; }
+            set { _rigidbody = value; }
+        }
+
+        public VehiclePhysics VehiclePhysics
+        {
+            get { return _vehiclePhysics; }
+            set { _vehiclePhysics = value; }
+        }
         #endregion
 
         #region REFERENCES
         [Tooltip("Script that manages player's inputs.")]
-        [SerializeField] PlayerInputs _playerInputs;
+        [SerializeField] private PlayerInputs _playerInputs;
         [Tooltip("Player Rigidbody.")]
-        [SerializeField] Rigidbody _rigidbody;
+        [SerializeField] private Rigidbody _rigidbody;
         [Tooltip("Script that manages player's inputs.")]
-        [SerializeField] VehiclePhysics _vehiclePhysics;
+        [SerializeField] private VehiclePhysics _vehiclePhysics;
         #endregion
 
         #region STATE PATTERN
@@ -48,11 +60,12 @@ namespace SpeedTaxi.Player
         private void Start()
         {
             _vehiclePhysics.InitializeVehicle(_rigidbody);
+            Initialize();
         }
         private void Update()
         {
-            _vehiclePhysics.EngineInput = _playerInputs.Accelerate;
-            _vehiclePhysics.WheelsInput = _playerInputs.Steer;
+            //_vehiclePhysics.EngineInput = _playerInputs.Accelerate;
+            //_vehiclePhysics.WheelsInput = _playerInputs.Steer;
 
             if (!_initialized) return;
 

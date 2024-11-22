@@ -384,8 +384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerInputs: {fileID: 2470427656251456363}
-  _rigidbody: {fileID: 0}
-  _vehiclePhysics: {fileID: 0}
+  _rigidbody: {fileID: 8275962016082063664}
+  _vehiclePhysics: {fileID: 239932052578026794}
 --- !u!1 &7106030515396552632
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +515,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478584771754693340}
-  - component: {fileID: 3492948303080205444}
   - component: {fileID: 239932052578026794}
   m_Layer: 0
   m_Name: Physics
@@ -539,18 +538,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 933660752319006965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3492948303080205444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8004460868506049313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d7f6ad951b5914cb76ec679a06e556, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &239932052578026794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +697,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!65 &65206881197911994
 BoxCollider:
