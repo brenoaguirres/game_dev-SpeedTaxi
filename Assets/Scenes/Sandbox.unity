@@ -268,45 +268,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &107127765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 107127766}
-  - component: {fileID: 107127767}
-  m_Layer: 0
-  m_Name: Inputs
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &107127766
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107127765}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 509913412}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &107127767
+--- !u!114 &107127767 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2470427656251456363, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+  m_PrefabInstance: {fileID: 441768847131847734}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107127765}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01d7f6ad951b5914cb76ec679a06e556, type: 3}
@@ -714,11 +681,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1729248897}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &509913412 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 933660752319006965, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
-  m_PrefabInstance: {fileID: 441768847131847734}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &596009398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,20 +1337,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8275962016082063664, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
-      propertyPath: m_Constraints
-      value: 84
-      objectReference: {fileID: 0}
     - target: {fileID: 8869444622036356501, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
       propertyPath: m_Name
       value: TaxiCab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 933660752319006965, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 107127766}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
 --- !u!4 &441768847131847735 stripped
