@@ -1345,6 +1345,10 @@ PrefabInstance:
       propertyPath: _vehiclePhysics
       value: 
       objectReference: {fileID: 441768847131847737}
+    - target: {fileID: 8275962016082063664, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 8869444622036356501, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
       propertyPath: m_Name
       value: TaxiCab
