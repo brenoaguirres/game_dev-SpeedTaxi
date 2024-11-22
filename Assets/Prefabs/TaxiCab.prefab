@@ -384,6 +384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerInputs: {fileID: 2470427656251456363}
+  _rigidbody: {fileID: 0}
+  _vehiclePhysics: {fileID: 0}
 --- !u!1 &7106030515396552632
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 976501a2a2cb49a4bb5c6cec654953e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentMoveSpeed: 0
 --- !u!1 &8737029613341299241
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +661,6 @@ GameObject:
   - component: {fileID: 4505336328497688959}
   - component: {fileID: 8275962016082063664}
   - component: {fileID: 65206881197911994}
-  - component: {fileID: 4373713428122288231}
   m_Layer: 0
   m_Name: TaxiCab
   m_TagString: Player
@@ -731,20 +733,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.5472832, y: 2.5176034, z: 7.586914}
   m_Center: {x: -0.0010204315, y: -0.008393526, z: -0.32517624}
---- !u!114 &4373713428122288231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8869444622036356501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3da789feb33e7dd4abf225114796cbcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 40
-  _steerSpeed: 60
 --- !u!1 &9202725823499714955
 GameObject:
   m_ObjectHideFlags: 0

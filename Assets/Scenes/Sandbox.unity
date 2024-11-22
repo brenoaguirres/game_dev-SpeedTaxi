@@ -1337,6 +1337,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056320528678681604, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 441768847131847736}
+    - target: {fileID: 5056320528678681604, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+      propertyPath: _vehiclePhysics
+      value: 
+      objectReference: {fileID: 441768847131847737}
     - target: {fileID: 8869444622036356501, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
       propertyPath: m_Name
       value: TaxiCab
@@ -1351,6 +1359,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4505336328497688959, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
   m_PrefabInstance: {fileID: 441768847131847734}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &441768847131847736 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8275962016082063664, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+  m_PrefabInstance: {fileID: 441768847131847734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &441768847131847737 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 239932052578026794, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+  m_PrefabInstance: {fileID: 441768847131847734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976501a2a2cb49a4bb5c6cec654953e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

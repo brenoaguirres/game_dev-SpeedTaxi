@@ -1,4 +1,5 @@
 using SpeedTaxi.Inputs;
+using SpeedTaxi.Vehicle;
 using UnityEngine;
 
 namespace SpeedTaxi.Player
@@ -32,6 +33,10 @@ namespace SpeedTaxi.Player
         #region REFERENCES
         [Tooltip("Script that manages player's inputs.")]
         [SerializeField] PlayerInputs _playerInputs;
+        [Tooltip("Player Rigidbody.")]
+        [SerializeField] Rigidbody _rigidbody;
+        [Tooltip("Script that manages player's inputs.")]
+        [SerializeField] VehiclePhysics _vehiclePhysics;
         #endregion
 
         #region STATE PATTERN
@@ -40,8 +45,14 @@ namespace SpeedTaxi.Player
         #endregion
 
         #region UNITY CALLBACKS
+        private void Start()
+        {
+            _vehiclePhysics.InitializeVehicle(_rigidbody);
+        }
         private void Update()
         {
+            _vehiclePhysics.EngineInput = _playerInputs.Accelerate;
+
             if (!_initialized) return;
 
             _currentState.UpdateStates();
