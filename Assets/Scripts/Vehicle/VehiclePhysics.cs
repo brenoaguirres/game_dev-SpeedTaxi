@@ -28,11 +28,11 @@ namespace SpeedTaxi.Vehicle
         // Braking Factor in units per second
         private float _brakeForce = 35f;
         // Inertia Deceleration Factor in units per second
-        private float _inertiaDecelerationFactor = 5f;
+        private float _inertiaDecelerationFactor = 15f;
 
         // -----> ROTATION
         // Amount of rotation per second
-        private float _steerSpeed = 50f;
+        private float _steerAngle = 35f;
         #endregion
 
         #region PROPERTIES
@@ -61,7 +61,7 @@ namespace SpeedTaxi.Vehicle
 
         public void FixedUpdate()
         {
-            ResolveHandBrake();
+            //ResolveHandBrake();
             ResolveEngine();
             ResolveWheels();
         }
@@ -80,7 +80,12 @@ namespace SpeedTaxi.Vehicle
                 // Accelerating
                 _currentMoveSpeed += (_accelerationFactor * Time.fixedDeltaTime);
                 _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
-                _vehicleRigidbody.linearVelocity = _vehicleRigidbody.transform.forward * _currentMoveSpeed;
+                _vehicleRigidbody.linearVelocity = new Vector3(
+                    _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                    _vehicleRigidbody.linearVelocity.y, 
+                    _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
+                
             }
             else if (EngineInput <= -0.05f) // Reverse Acceleration
             {
@@ -89,13 +94,21 @@ namespace SpeedTaxi.Vehicle
                 {
                     _currentMoveSpeed += (-_brakeForce * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
-                    _vehicleRigidbody.linearVelocity = _vehicleRigidbody.transform.forward * _currentMoveSpeed;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
                 } // Reverse
                 else if (_vehicleRigidbody.linearVelocity.z <= 0f)
                 {
                     _currentMoveSpeed += (-_decelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
-                    _vehicleRigidbody.linearVelocity = _vehicleRigidbody.transform.forward * _currentMoveSpeed;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
                 }
             }
             else // Inertia
@@ -104,33 +117,45 @@ namespace SpeedTaxi.Vehicle
                 {
                     _currentMoveSpeed += (-_inertiaDecelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
-                    _vehicleRigidbody.linearVelocity = _vehicleRigidbody.transform.forward * _currentMoveSpeed;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
                 }
                 else if (_vehicleRigidbody.linearVelocity.z < -0.05f) // When R
                 {
                     _currentMoveSpeed += (_inertiaDecelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
-                    _vehicleRigidbody.linearVelocity = _vehicleRigidbody.transform.forward * _currentMoveSpeed;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
                 }
                 else // Stop
                 {
                     _currentMoveSpeed = 0f;
-                    _vehicleRigidbody.linearVelocity = Vector3.zero;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        0f,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        0f
+                    );
                 }
             }
         }
 
         public void ResolveWheels()
         {
-            if (WheelsInput >= 0.05f)
+            if (WheelsInput >= 0.05f && _vehicleRigidbody.linearVelocity.magnitude > 0.1f)
             {
-                float steerAmount = _steerSpeed * Time.fixedDeltaTime;
+                float steerAmount = _steerAngle * Time.fixedDeltaTime;
                 Quaternion targetRotation = _vehicleRigidbody.transform.rotation * Quaternion.Euler(0, steerAmount, 0);
                 _vehicleRigidbody.MoveRotation(targetRotation);
             }
-            else if (WheelsInput <= -0.05f)
+            else if (WheelsInput <= -0.05f && _vehicleRigidbody.linearVelocity.magnitude > 0.1f)
             {
-                float steerAmount = _steerSpeed * Time.fixedDeltaTime;
+                float steerAmount = _steerAngle * Time.fixedDeltaTime;
                 Quaternion targetRotation = _vehicleRigidbody.transform.rotation * Quaternion.Euler(0, -steerAmount, 0);
                 _vehicleRigidbody.MoveRotation(targetRotation);
             }

@@ -1,0 +1,14 @@
+> ao usar brake / handbrake ao fazer curva (steer input), o steering angle aumenta interpolando para um valor adicional
+> conserva a direção de movimento para gerar skidding quando vira, o skidding é diretamente proporcional à velocidade
+de movimento corrente
+
+
+copacabana beach
+-> Score 30K points
+-> Score 50K points
+-> Score 100K points
+-> Cause more than 100K BRL in damage to public property
+-> Jump Over the Bridge
+-> Make A cinematic leap (Changes camera when jumping in front of christ the redeemer in the sunshine)
+-> Find all T A X I letters
+-> Deliver 20 Customersw

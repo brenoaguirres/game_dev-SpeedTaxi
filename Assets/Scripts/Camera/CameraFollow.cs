@@ -54,7 +54,8 @@ namespace SpeedTaxi.Camera
         private void Update()
         {
             _lerpFactor += Mathf.Clamp01(Time.deltaTime / _cameraSpeed);
-            
+
+            // Update offset based on input
             if (_input.Accelerate > 0.05f)
             {
                 LastInput = 1;
@@ -71,8 +72,14 @@ namespace SpeedTaxi.Camera
                 LastInput = 0;
                 _currentFollowOffset = Vector3.Lerp(_currentFollowOffset, Vector3.zero, _lerpFactor);
             }
-            
-            transform.position = transform.position = _followObject.position + _initialOffset + _currentFollowOffset;
+
+            // Calculate the new position with rotated offset
+            Vector3 rotatedOffset = _followObject.rotation * (_initialOffset + _currentFollowOffset);
+            transform.position = _followObject.position + rotatedOffset;
+
+            // Preserve the X-axis rotation and only update the Y-axis
+            Vector3 targetEulerAngles = new Vector3(transform.localEulerAngles.x, _followObject.eulerAngles.y, 0f);
+            transform.rotation = Quaternion.Euler(targetEulerAngles);
         }
         #endregion
         
