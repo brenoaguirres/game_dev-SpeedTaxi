@@ -1,6 +1,8 @@
 > ao usar brake / handbrake ao fazer curva (steer input), o steering angle aumenta interpolando para um valor adicional
 > conserva a direção de movimento para gerar skidding quando vira, o skidding é diretamente proporcional à velocidade
 de movimento corrente
+> quantidade de steering permitido de 0 ao maximo deve ser proporcinal à linear velocity ( virar menos
+quando mais devagar).
 
 
 copacabana beach
