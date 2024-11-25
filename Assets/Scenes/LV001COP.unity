@@ -16386,6 +16386,7 @@ GameObject:
   - component: {fileID: 646157855}
   - component: {fileID: 646157854}
   - component: {fileID: 646157857}
+  - component: {fileID: 646157858}
   m_Layer: 0
   m_Name: RideStartPosition
   m_TagString: Untagged
@@ -16436,7 +16437,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646157852}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -16512,6 +16513,20 @@ MonoBehaviour:
   onCExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &646157858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646157852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ab02ba742cff74498455c6cbde4b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderers:
+  - {fileID: 646157855}
 --- !u!1001 &647098540
 PrefabInstance:
   m_ObjectHideFlags: 0
