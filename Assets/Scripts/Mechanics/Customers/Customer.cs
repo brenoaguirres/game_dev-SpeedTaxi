@@ -3,6 +3,8 @@ using SpeedTaxi.Utils;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.Serialization;
+using UnityEngine.Events;
+using SpeedTaxi.Managers;
 
 namespace SpeedTaxi.CustomerSystem
 {
@@ -43,6 +45,10 @@ namespace SpeedTaxi.CustomerSystem
         [Space(2)]
         [Header("State")]
         [SerializeField] private State _customerState = State.INACTIVE;
+        #endregion
+
+        #region UNITY EVENTS
+        public UnityEvent onCustomerDelivered;
         #endregion
 
         #region UNITY CALLBACKS
@@ -97,6 +103,9 @@ namespace SpeedTaxi.CustomerSystem
             
             _rideStartPosition.onTEnter.AddListener(OnEnterStartArea);
             _rideFinishPosition.onTEnter.AddListener(OnEnterExitArea);
+
+            int _rideScore = (int)(GlobalConstants.BASE_SCORE * (Vector3.Distance(_rideStartPosition.transform.position, _rideFinishPosition.transform.position) / 100));
+            GetComponentInChildren<IScoreInitializer>().InitializeScore(_rideScore);
         }
 
         public void DisableCustomer()
@@ -104,7 +113,6 @@ namespace SpeedTaxi.CustomerSystem
             _customerState = State.INACTIVE;
             _rideStartPosition.onTEnter.RemoveListener(OnEnterStartArea);
             _rideFinishPosition.onTEnter.RemoveListener(OnEnterExitArea);
-            Debug.Log("$$$ gained");
         }
 
         // ==============
@@ -150,6 +158,7 @@ namespace SpeedTaxi.CustomerSystem
 
         public void UpdateFinish()
         {
+            onCustomerDelivered?.Invoke();
             gameObject.SetActive(false);
         }
 

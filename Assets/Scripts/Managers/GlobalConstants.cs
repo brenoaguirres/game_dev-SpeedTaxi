@@ -2,6 +2,6 @@
 {
     public static class GlobalConstants
     {
-        public const float BASE_SCORE = 100;
+        public const int BASE_SCORE = 100;
     }
 }
