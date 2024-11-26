@@ -21,6 +21,10 @@ namespace SpeedTaxi.CustomerSystem
 
     public class Customer : MonoBehaviour
     {
+        #region CONSTANTS
+        private const int DISTANCE_PER_SCORE = 100;
+        #endregion
+
         #region FIELDS
         [Header("Customer Behavior")] 
         [SerializeField] private float _moveSpeed = 10f;
@@ -104,8 +108,8 @@ namespace SpeedTaxi.CustomerSystem
             _rideStartPosition.onTEnter.AddListener(OnEnterStartArea);
             _rideFinishPosition.onTEnter.AddListener(OnEnterExitArea);
 
-            int _rideScore = (int)(GlobalConstants.BASE_SCORE * (Vector3.Distance(_rideStartPosition.transform.position, _rideFinishPosition.transform.position) / 100));
-            GetComponentInChildren<IScoreInitializer>().InitializeScore(_rideScore);
+            int rideScore = (int)(Vector3.Distance(_rideStartPosition.transform.position, _rideFinishPosition.transform.position) / DISTANCE_PER_SCORE);
+            GetComponentInChildren<IScoreInitializer>().InitializeScore(rideScore);
         }
 
         public void DisableCustomer()

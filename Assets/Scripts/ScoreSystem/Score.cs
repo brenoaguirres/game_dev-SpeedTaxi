@@ -6,6 +6,10 @@ namespace SpeedTaxi.ScoreSystem
 {
     public class Score : MonoBehaviour
     {
+        #region CONSTANTS
+        private const int FORMATTING_DIGITS = 7;
+        #endregion
+
         #region FIELDS
         private int _totalScore = 0;
         #endregion
@@ -35,7 +39,6 @@ namespace SpeedTaxi.ScoreSystem
         {
             TotalScore += value;
             onScoreChange?.Invoke();
-
             UpdateUI();
         }
 
@@ -43,25 +46,8 @@ namespace SpeedTaxi.ScoreSystem
         {
             string score = TotalScore.ToString();
 
-            int loopIterations = 7;
-            int counter = 1;
-            int zeroes = 7;
-            for (int i = loopIterations; i > 0; i--)
-            {
-                counter = 1 * (int)(Mathf.Pow(10, i));
-                if (TotalScore / counter > 0)
-                    zeroes--;
-                else
-                    break;
-            }
-
-            for (int i = 0; i < zeroes; i++)
-            {
-                score = "0" + score;
-                Debug.Log(score);
-            }
-
-            _uiLabel.NextText = score.ToString();
+            score = score.PadLeft(FORMATTING_DIGITS, '0');
+            _uiLabel.NextText = score;
         }
         #endregion
     }
