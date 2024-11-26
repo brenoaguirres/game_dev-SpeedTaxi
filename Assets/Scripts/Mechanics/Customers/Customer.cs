@@ -60,8 +60,16 @@ namespace SpeedTaxi.CustomerSystem
         {
             switch (_customerState)
             {
+                case State.INACTIVE:
+                    break;
+                case State.WAITING:
+                    break;
                 case State.ENTERING:
                     UpdateEntering();
+                    break;
+                case State.RIDING:
+                    break;
+                case State.PAYMENT:
                     break;
                 case State.EXITING:
                     UpdateExiting();

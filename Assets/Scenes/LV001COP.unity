@@ -59221,8 +59221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3eaa30d6e09d284386dea7a347324c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 10
-  _currentTarget: {fileID: 154345476}
+  _pivotObject: {fileID: 441768847131847735}
+  _currentTarget: {fileID: 154345477}
 --- !u!1 &3655288323327487439
 GameObject:
   m_ObjectHideFlags: 0
