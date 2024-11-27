@@ -113,7 +113,9 @@ namespace SpeedTaxi.NPCSystem
             if (_agent == null)
                 _agent = GetComponentInParent<NavMeshAgent>();
             if (_surface == null)
+            {
                 _surface = FindNavMeshSurface();
+            }
 
             // state init
             _citizenState = State.IDLE;
@@ -122,20 +124,29 @@ namespace SpeedTaxi.NPCSystem
         private NavMeshSurface FindNavMeshSurface()
         {
             List<NavMeshSurface> surfaceCollection = FindObjectsOfType<NavMeshSurface>().ToList();
+            NavMeshSurface returnSurface = null;
+
             foreach (NavMeshSurface surface in surfaceCollection)
             {
                 if (surface.gameObject.name == _surfaceObjectName)
-                    return _surface;
+                    returnSurface = surface; 
             }
 
-            Debug.LogError($"No navmesh surface found on {gameObject.name}");
-            return null;
+            if (returnSurface != null)
+            {
+                return returnSurface;
+            }
+            else
+            {
+                Debug.LogError($"No navmesh surface found on {gameObject.name}");
+                return null;
+            }
         }
 
         // AI
         private bool GenerateAIDestination()
         {
-            Vector3 randomPoint = _surface.transform.position + new Vector3(
+            Vector3 randomPoint = transform.position + new Vector3(
                 Random.Range(-_destinationMaxRange, _destinationMaxRange), _surface.transform.position.y, Random.Range(-_destinationMaxRange, _destinationMaxRange)
                 );
 
@@ -143,6 +154,7 @@ namespace SpeedTaxi.NPCSystem
             if (NavMesh.SamplePosition(randomPoint, out hit, _destinationMaxRange, NavMesh.AllAreas))
             {
                 _agent.SetDestination(hit.position);
+                Debug.Log(hit);
                 return true;
             }
             else
@@ -155,11 +167,13 @@ namespace SpeedTaxi.NPCSystem
         {
             _generatingDestination = true;
 
-            while (!GenerateAIDestination())
+            while (_generatingDestination)
             {
-                _generatingDestination = false;
+                if (GenerateAIDestination())
+                    _generatingDestination = false;
                 yield return null;
             }
+
         }
         #endregion
     }
