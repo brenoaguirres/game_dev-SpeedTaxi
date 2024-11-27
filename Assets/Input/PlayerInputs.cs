@@ -34,7 +34,7 @@ namespace SpeedTaxi.Inputs
             _inputActions = new PlayerInputActions();
             
             _inputActions.Enable();
-            
+
             _inputActions.Car.Accelerate.started += ctx => _accelerate = ctx.ReadValue<float>();
             _inputActions.Car.Steer.started += ctx => _steer = ctx.ReadValue<float>();
             _inputActions.Car.Handbrake.started += ctx => _handbrake = ctx.ReadValueAsButton();
@@ -60,7 +60,6 @@ namespace SpeedTaxi.Inputs
         {
             _inputActions.Disable();
         }
-
         #endregion
     }
 }

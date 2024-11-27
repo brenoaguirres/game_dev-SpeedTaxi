@@ -341,6 +341,7 @@ GameObject:
   - component: {fileID: 5701495}
   - component: {fileID: 5701494}
   - component: {fileID: 5701496}
+  - component: {fileID: 5701497}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -438,6 +439,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5701497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5701491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &6170190
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +471,7 @@ GameObject:
   - component: {fileID: 6170193}
   - component: {fileID: 6170192}
   - component: {fileID: 6170194}
+  - component: {fileID: 6170195}
   m_Layer: 0
   m_Name: SidewalkTile (35)
   m_TagString: Untagged
@@ -547,6 +569,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &6170195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6170190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &9435297
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +929,7 @@ GameObject:
   - component: {fileID: 19656342}
   - component: {fileID: 19656341}
   - component: {fileID: 19656343}
+  - component: {fileID: 19656344}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -984,6 +1027,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &19656344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19656339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &20857903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1103,11 @@ Transform:
   - {fileID: 1037703363}
   m_Father: {fileID: 518291886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &22079024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1412151880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &26041158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1122,6 +1190,7 @@ GameObject:
   - component: {fileID: 42239159}
   - component: {fileID: 42239158}
   - component: {fileID: 42239160}
+  - component: {fileID: 42239161}
   m_Layer: 0
   m_Name: SidewalkTile (1)
   m_TagString: Untagged
@@ -1219,6 +1288,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &42239161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42239156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!114 &42983303 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4655155221001555242, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
@@ -1317,6 +1406,7 @@ GameObject:
   - component: {fileID: 52001070}
   - component: {fileID: 52001069}
   - component: {fileID: 52001071}
+  - component: {fileID: 52001072}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -1414,6 +1504,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &52001072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52001067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &54940576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1692,7 @@ GameObject:
   - component: {fileID: 59830917}
   - component: {fileID: 59830916}
   - component: {fileID: 59830918}
+  - component: {fileID: 59830919}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -1679,6 +1790,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &59830919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59830914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &66849397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1761,6 +1892,7 @@ GameObject:
   - component: {fileID: 72519305}
   - component: {fileID: 72519304}
   - component: {fileID: 72519306}
+  - component: {fileID: 72519307}
   m_Layer: 0
   m_Name: SidewalkTile (25)
   m_TagString: Untagged
@@ -1858,6 +1990,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &72519307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72519302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &76923480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1940,6 +2092,7 @@ GameObject:
   - component: {fileID: 77915105}
   - component: {fileID: 77915104}
   - component: {fileID: 77915106}
+  - component: {fileID: 77915107}
   m_Layer: 0
   m_Name: SidewalkTile (26)
   m_TagString: Untagged
@@ -2037,6 +2190,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &77915107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77915102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &84156129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2119,6 +2292,7 @@ GameObject:
   - component: {fileID: 91318775}
   - component: {fileID: 91318774}
   - component: {fileID: 91318776}
+  - component: {fileID: 91318777}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -2216,6 +2390,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &91318777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91318772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &92357693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,6 +2422,7 @@ GameObject:
   - component: {fileID: 92357696}
   - component: {fileID: 92357695}
   - component: {fileID: 92357697}
+  - component: {fileID: 92357698}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -2325,6 +2520,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &92357698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92357693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &93836547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,6 +2778,7 @@ GameObject:
   - component: {fileID: 100995300}
   - component: {fileID: 100995299}
   - component: {fileID: 100995301}
+  - component: {fileID: 100995302}
   m_Layer: 0
   m_Name: SidewalkTile (2)
   m_TagString: Untagged
@@ -2660,6 +2876,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &100995302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100995296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &106864033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +2948,7 @@ GameObject:
   - component: {fileID: 107062848}
   - component: {fileID: 107062847}
   - component: {fileID: 107062849}
+  - component: {fileID: 107062850}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -2809,6 +3046,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &107062850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107062845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!114 &107127767 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2470427656251456363, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
@@ -3043,6 +3300,7 @@ GameObject:
   - component: {fileID: 117825181}
   - component: {fileID: 117825180}
   - component: {fileID: 117825182}
+  - component: {fileID: 117825183}
   m_Layer: 0
   m_Name: SidewalkTile (36)
   m_TagString: Untagged
@@ -3140,6 +3398,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &117825183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117825178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &119249002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3222,6 +3500,7 @@ GameObject:
   - component: {fileID: 126949833}
   - component: {fileID: 126949832}
   - component: {fileID: 126949834}
+  - component: {fileID: 126949835}
   m_Layer: 0
   m_Name: SidewalkTile (1)
   m_TagString: Untagged
@@ -3319,6 +3598,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &126949835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126949829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &130279693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 134200034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &130999432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,6 +3635,7 @@ GameObject:
   - component: {fileID: 130999436}
   - component: {fileID: 130999435}
   - component: {fileID: 130999437}
+  - component: {fileID: 130999438}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -3428,6 +3733,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &130999438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130999432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &132106321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,13 +3902,100 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 134200039}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &134200035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 134200034}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &134200039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130279693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &144171942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144171943}
+  - component: {fileID: 144171944}
+  m_Layer: 0
+  m_Name: NPCNavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144171943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144171942}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1935424072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144171944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144171942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: -1372625422
+  m_CollectObjects: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 1faae73ff28ab6c4f8e2b2626f74221d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1001 &151208045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4056,6 +4468,7 @@ GameObject:
   - component: {fileID: 162149951}
   - component: {fileID: 162149950}
   - component: {fileID: 162149952}
+  - component: {fileID: 162149953}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -4153,6 +4566,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &162149953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162149948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &170127881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4570,6 +5003,7 @@ GameObject:
   - component: {fileID: 181292418}
   - component: {fileID: 181292417}
   - component: {fileID: 181292419}
+  - component: {fileID: 181292420}
   m_Layer: 0
   m_Name: SidewalkTile (3)
   m_TagString: Untagged
@@ -4667,6 +5101,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &181292420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181292414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &182116743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4679,6 +5133,7 @@ GameObject:
   - component: {fileID: 182116746}
   - component: {fileID: 182116745}
   - component: {fileID: 182116747}
+  - component: {fileID: 182116748}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -4776,6 +5231,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &182116748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182116743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &189952856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5361,7 +5836,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 244511556}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &231420026 stripped
 Transform:
@@ -5380,6 +5858,7 @@ GameObject:
   - component: {fileID: 232803063}
   - component: {fileID: 232803062}
   - component: {fileID: 232803064}
+  - component: {fileID: 232803065}
   m_Layer: 0
   m_Name: SidewalkTile (34)
   m_TagString: Untagged
@@ -5477,6 +5956,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &232803065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232803060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &233734167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5547,6 +6046,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 233734167}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &244511552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 231420025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &244511556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244511552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &251608116
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,6 +6239,7 @@ GameObject:
   - component: {fileID: 256678659}
   - component: {fileID: 256678658}
   - component: {fileID: 256678660}
+  - component: {fileID: 256678661}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -5812,6 +6337,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &256678661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256678656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &268729474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5881,6 +6426,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 268729474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &268872754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1354816156}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &275538154
 PrefabInstance:
@@ -6465,6 +7015,7 @@ GameObject:
   - component: {fileID: 314779725}
   - component: {fileID: 314779724}
   - component: {fileID: 314779726}
+  - component: {fileID: 314779727}
   m_Layer: 0
   m_Name: SidewalkTile (35)
   m_TagString: Untagged
@@ -6562,6 +7113,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &314779727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314779722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &317577701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6784,6 +7355,7 @@ GameObject:
   - component: {fileID: 321795485}
   - component: {fileID: 321795484}
   - component: {fileID: 321795486}
+  - component: {fileID: 321795487}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -6881,6 +7453,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &321795487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321795482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &322206616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -7361,6 +7953,7 @@ GameObject:
   - component: {fileID: 333605171}
   - component: {fileID: 333605170}
   - component: {fileID: 333605172}
+  - component: {fileID: 333605173}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -7458,6 +8051,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &333605173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333605168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &334231898
 GameObject:
   m_ObjectHideFlags: 0
@@ -7919,6 +8532,7 @@ GameObject:
   - component: {fileID: 354008632}
   - component: {fileID: 354008631}
   - component: {fileID: 354008633}
+  - component: {fileID: 354008634}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -8016,6 +8630,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &354008634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354008629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &356641473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8381,6 +9015,7 @@ GameObject:
   - component: {fileID: 366679023}
   - component: {fileID: 366679022}
   - component: {fileID: 366679024}
+  - component: {fileID: 366679025}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -8478,6 +9113,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &366679025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366679020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &368306467
 GameObject:
   m_ObjectHideFlags: 0
@@ -8797,6 +9452,7 @@ GameObject:
   - component: {fileID: 379168777}
   - component: {fileID: 379168776}
   - component: {fileID: 379168778}
+  - component: {fileID: 379168779}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -8894,6 +9550,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &379168779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379168773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &383762181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9078,6 +9754,7 @@ GameObject:
   - component: {fileID: 412131804}
   - component: {fileID: 412131803}
   - component: {fileID: 412131805}
+  - component: {fileID: 412131806}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -9175,6 +9852,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &412131806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412131800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &427020710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -9389,7 +10086,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 893976034}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &431583829 stripped
 Transform:
@@ -10251,6 +10951,7 @@ GameObject:
   - component: {fileID: 472296275}
   - component: {fileID: 472296274}
   - component: {fileID: 472296276}
+  - component: {fileID: 472296277}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -10348,6 +11049,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &472296277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472296272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &473087685
 GameObject:
   m_ObjectHideFlags: 0
@@ -10602,6 +11323,7 @@ GameObject:
   - component: {fileID: 477572964}
   - component: {fileID: 477572963}
   - component: {fileID: 477572965}
+  - component: {fileID: 477572966}
   m_Layer: 0
   m_Name: SidewalkTile (38)
   m_TagString: Untagged
@@ -10699,6 +11421,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &477572966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477572961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &480624370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10781,6 +11523,7 @@ GameObject:
   - component: {fileID: 487888355}
   - component: {fileID: 487888354}
   - component: {fileID: 487888356}
+  - component: {fileID: 487888357}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -10878,6 +11621,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &487888357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487888352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &488664975
 GameObject:
   m_ObjectHideFlags: 0
@@ -10890,6 +11653,7 @@ GameObject:
   - component: {fileID: 488664979}
   - component: {fileID: 488664978}
   - component: {fileID: 488664980}
+  - component: {fileID: 488664981}
   m_Layer: 0
   m_Name: SidewalkTile (2)
   m_TagString: Untagged
@@ -10987,6 +11751,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &488664981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488664975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &489462647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11225,6 +12009,7 @@ GameObject:
   - component: {fileID: 493486006}
   - component: {fileID: 493486005}
   - component: {fileID: 493486007}
+  - component: {fileID: 493486008}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -11322,6 +12107,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &493486008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493486003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &498764944
 GameObject:
   m_ObjectHideFlags: 0
@@ -11334,6 +12139,7 @@ GameObject:
   - component: {fileID: 498764948}
   - component: {fileID: 498764947}
   - component: {fileID: 498764949}
+  - component: {fileID: 498764950}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -11431,6 +12237,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &498764950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498764944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &502809507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11494,7 +12320,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1551769280}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &502809508 stripped
 Transform:
@@ -11799,6 +12628,7 @@ GameObject:
   - component: {fileID: 521916079}
   - component: {fileID: 521916078}
   - component: {fileID: 521916080}
+  - component: {fileID: 521916081}
   m_Layer: 0
   m_Name: SidewalkTile (37)
   m_TagString: Untagged
@@ -11896,6 +12726,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &521916081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521916076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &523462076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12196,6 +13046,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 531800323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &534182160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1337037081}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &534336473
 GameObject:
@@ -13813,6 +14668,7 @@ GameObject:
   - component: {fileID: 604569540}
   - component: {fileID: 604569539}
   - component: {fileID: 604569541}
+  - component: {fileID: 604569542}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -13910,6 +14766,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &604569542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604569537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &617030791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14018,6 +14894,7 @@ GameObject:
   - component: {fileID: 620504296}
   - component: {fileID: 620504295}
   - component: {fileID: 620504297}
+  - component: {fileID: 620504298}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -14115,6 +14992,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &620504298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620504293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &624784679
 GameObject:
   m_ObjectHideFlags: 0
@@ -14147,6 +15044,7 @@ Transform:
   - {fileID: 629862787}
   - {fileID: 1975075659}
   - {fileID: 1875674828}
+  - {fileID: 1935424072}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &629862786
@@ -14932,6 +15830,7 @@ GameObject:
   - component: {fileID: 654802979}
   - component: {fileID: 654802978}
   - component: {fileID: 654802980}
+  - component: {fileID: 654802981}
   m_Layer: 0
   m_Name: SidewalkTile (39)
   m_TagString: Untagged
@@ -15029,6 +15928,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &654802981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654802976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &662413743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15408,6 +16327,7 @@ GameObject:
   - component: {fileID: 679742469}
   - component: {fileID: 679742468}
   - component: {fileID: 679742470}
+  - component: {fileID: 679742471}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -15505,6 +16425,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &679742471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679742466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &679880869
 GameObject:
   m_ObjectHideFlags: 0
@@ -15517,6 +16457,7 @@ GameObject:
   - component: {fileID: 679880872}
   - component: {fileID: 679880871}
   - component: {fileID: 679880873}
+  - component: {fileID: 679880874}
   m_Layer: 0
   m_Name: SidewalkTile (34)
   m_TagString: Untagged
@@ -15614,6 +16555,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &679880874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679880869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &689283845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15771,6 +16732,7 @@ GameObject:
   - component: {fileID: 696947678}
   - component: {fileID: 696947677}
   - component: {fileID: 696947679}
+  - component: {fileID: 696947680}
   m_Layer: 0
   m_Name: SidewalkTile (33)
   m_TagString: Untagged
@@ -15868,6 +16830,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &696947680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696947675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &697000964
 GameObject:
   m_ObjectHideFlags: 0
@@ -15880,6 +16862,7 @@ GameObject:
   - component: {fileID: 697000967}
   - component: {fileID: 697000966}
   - component: {fileID: 697000968}
+  - component: {fileID: 697000969}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -15977,6 +16960,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &697000969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697000964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &697578433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16129,6 +17132,7 @@ GameObject:
   - component: {fileID: 703574963}
   - component: {fileID: 703574962}
   - component: {fileID: 703574964}
+  - component: {fileID: 703574965}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -16226,6 +17230,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &703574965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703574960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &704435767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16937,6 +17961,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 727908055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &731848187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1239486535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &732704326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17019,6 +18048,7 @@ GameObject:
   - component: {fileID: 734885969}
   - component: {fileID: 734885968}
   - component: {fileID: 734885970}
+  - component: {fileID: 734885971}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -17116,6 +18146,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &734885971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734885966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &735442579
 GameObject:
   m_ObjectHideFlags: 0
@@ -17128,6 +18178,7 @@ GameObject:
   - component: {fileID: 735442582}
   - component: {fileID: 735442581}
   - component: {fileID: 735442583}
+  - component: {fileID: 735442584}
   m_Layer: 0
   m_Name: SidewalkTile (3)
   m_TagString: Untagged
@@ -17225,6 +18276,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &735442584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735442579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &737194941
 GameObject:
   m_ObjectHideFlags: 0
@@ -17393,6 +18464,7 @@ GameObject:
   - component: {fileID: 738514440}
   - component: {fileID: 738514439}
   - component: {fileID: 738514441}
+  - component: {fileID: 738514442}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -17490,6 +18562,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &738514442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738514437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &740702280
 GameObject:
   m_ObjectHideFlags: 0
@@ -17859,6 +18951,7 @@ GameObject:
   - component: {fileID: 753179318}
   - component: {fileID: 753179317}
   - component: {fileID: 753179319}
+  - component: {fileID: 753179320}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -17956,6 +19049,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &753179320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753179315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &753350078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18124,6 +19237,7 @@ GameObject:
   - component: {fileID: 755815680}
   - component: {fileID: 755815679}
   - component: {fileID: 755815681}
+  - component: {fileID: 755815682}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -18221,6 +19335,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &755815682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755815677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &758515862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18303,6 +19437,7 @@ GameObject:
   - component: {fileID: 758722686}
   - component: {fileID: 758722685}
   - component: {fileID: 758722687}
+  - component: {fileID: 758722688}
   m_Layer: 0
   m_Name: SidewalkTile (34)
   m_TagString: Untagged
@@ -18400,6 +19535,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &758722688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758722683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &763709795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18482,6 +19637,7 @@ GameObject:
   - component: {fileID: 763967633}
   - component: {fileID: 763967632}
   - component: {fileID: 763967634}
+  - component: {fileID: 763967635}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -18579,6 +19735,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &763967635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763967629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &765438718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18767,6 +19943,7 @@ GameObject:
   - component: {fileID: 782670802}
   - component: {fileID: 782670801}
   - component: {fileID: 782670803}
+  - component: {fileID: 782670804}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -18864,6 +20041,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &782670804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782670799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &785952278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19086,6 +20283,7 @@ GameObject:
   - component: {fileID: 788836527}
   - component: {fileID: 788836526}
   - component: {fileID: 788836528}
+  - component: {fileID: 788836529}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -19183,6 +20381,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &788836529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788836524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &792656676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19398,6 +20616,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 798282637}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &800676155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800676156}
+  - component: {fileID: 800676157}
+  m_Layer: 0
+  m_Name: NPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &800676156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800676155}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877057885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &800676157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800676155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f280e80eebbfe4fa1d2a1f6e93564c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &804870113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19776,6 +21038,7 @@ GameObject:
   - component: {fileID: 813372085}
   - component: {fileID: 813372084}
   - component: {fileID: 813372086}
+  - component: {fileID: 813372087}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -19873,6 +21136,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &813372087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813372082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &814400133
 GameObject:
   m_ObjectHideFlags: 0
@@ -20143,6 +21426,7 @@ GameObject:
   - component: {fileID: 818955879}
   - component: {fileID: 818955878}
   - component: {fileID: 818955880}
+  - component: {fileID: 818955881}
   m_Layer: 0
   m_Name: SidewalkTile (39)
   m_TagString: Untagged
@@ -20240,6 +21524,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &818955881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818955876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &821406084
 GameObject:
   m_ObjectHideFlags: 0
@@ -20468,6 +21772,7 @@ GameObject:
   - component: {fileID: 824881898}
   - component: {fileID: 824881897}
   - component: {fileID: 824881899}
+  - component: {fileID: 824881900}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -20565,6 +21870,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &824881900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824881895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &828675488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20693,7 +22018,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1696646411}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &835796929 stripped
 Transform:
@@ -21081,7 +22409,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1813551350}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &845157953 stripped
 Transform:
@@ -21170,6 +22501,7 @@ GameObject:
   - component: {fileID: 855525589}
   - component: {fileID: 855525588}
   - component: {fileID: 855525590}
+  - component: {fileID: 855525591}
   m_Layer: 0
   m_Name: SidewalkTile (26)
   m_TagString: Untagged
@@ -21267,6 +22599,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &855525591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855525586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &857414088
 GameObject:
   m_ObjectHideFlags: 0
@@ -21279,6 +22631,7 @@ GameObject:
   - component: {fileID: 857414091}
   - component: {fileID: 857414090}
   - component: {fileID: 857414092}
+  - component: {fileID: 857414093}
   m_Layer: 0
   m_Name: SidewalkTile (3)
   m_TagString: Untagged
@@ -21376,6 +22729,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &857414093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857414088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &857752894
 GameObject:
   m_ObjectHideFlags: 0
@@ -21474,6 +22847,7 @@ GameObject:
   - component: {fileID: 860423551}
   - component: {fileID: 860423550}
   - component: {fileID: 860423552}
+  - component: {fileID: 860423553}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -21571,6 +22945,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &860423553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860423548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &863158134
 GameObject:
   m_ObjectHideFlags: 0
@@ -21657,6 +23051,114 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863158134}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &864916229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864916230}
+  - component: {fileID: 864916233}
+  - component: {fileID: 864916232}
+  - component: {fileID: 864916231}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864916230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864916229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877057885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &864916231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864916229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &864916232
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864916229}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &864916233
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864916229}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &867575303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21739,6 +23241,7 @@ GameObject:
   - component: {fileID: 870845897}
   - component: {fileID: 870845896}
   - component: {fileID: 870845898}
+  - component: {fileID: 870845899}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -21836,6 +23339,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &870845899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870845894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &870850101
 GameObject:
   m_ObjectHideFlags: 0
@@ -21848,6 +23371,7 @@ GameObject:
   - component: {fileID: 870850104}
   - component: {fileID: 870850103}
   - component: {fileID: 870850105}
+  - component: {fileID: 870850106}
   m_Layer: 0
   m_Name: SidewalkTile (36)
   m_TagString: Untagged
@@ -21945,6 +23469,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &870850106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870850101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &872630961
 GameObject:
   m_ObjectHideFlags: 0
@@ -21957,6 +23501,7 @@ GameObject:
   - component: {fileID: 872630965}
   - component: {fileID: 872630964}
   - component: {fileID: 872630966}
+  - component: {fileID: 872630967}
   m_Layer: 0
   m_Name: SidewalkTile (1)
   m_TagString: Untagged
@@ -22054,6 +23599,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &872630967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872630961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &873044122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22241,6 +23806,7 @@ GameObject:
   - component: {fileID: 874789977}
   - component: {fileID: 874789976}
   - component: {fileID: 874789978}
+  - component: {fileID: 874789979}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -22338,6 +23904,110 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &874789979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874789974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &877057884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877057885}
+  - component: {fileID: 877057886}
+  - component: {fileID: 877057887}
+  m_Layer: 0
+  m_Name: TeddyBearCitizen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877057885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877057884}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 864916230}
+  - {fileID: 800676156}
+  m_Father: {fileID: 1935424072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &877057886
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877057884}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!195 &877057887
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877057884}
+  m_Enabled: 1
+  m_AgentTypeID: -1372625422
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &878461800
 GameObject:
   m_ObjectHideFlags: 0
@@ -22492,6 +24162,7 @@ GameObject:
   - component: {fileID: 885816560}
   - component: {fileID: 885816559}
   - component: {fileID: 885816561}
+  - component: {fileID: 885816562}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -22589,6 +24260,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &885816562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885816557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &890868860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22652,7 +24343,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 903216737}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &890868861 stripped
 Transform:
@@ -22664,6 +24358,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 175174280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &893976030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 431583828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &893976034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893976030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &896466415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22746,6 +24465,7 @@ GameObject:
   - component: {fileID: 897576431}
   - component: {fileID: 897576430}
   - component: {fileID: 897576432}
+  - component: {fileID: 897576433}
   m_Layer: 0
   m_Name: SidewalkTile (25)
   m_TagString: Untagged
@@ -22843,6 +24563,56 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &897576433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897576428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &899239277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1334326698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &903216733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 890868860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &903216737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903216733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &905951597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23633,12 +25403,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1951041862}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &936305929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 936305928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &939414325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1495321983}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &943631594 stripped
 Transform:
@@ -23657,6 +25435,7 @@ GameObject:
   - component: {fileID: 948178865}
   - component: {fileID: 948178864}
   - component: {fileID: 948178866}
+  - component: {fileID: 948178867}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -23754,6 +25533,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &948178867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948178862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &958821240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23836,6 +25635,7 @@ GameObject:
   - component: {fileID: 965596215}
   - component: {fileID: 965596214}
   - component: {fileID: 965596216}
+  - component: {fileID: 965596217}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -23933,6 +25733,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &965596217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965596211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &969871955
 GameObject:
   m_ObjectHideFlags: 0
@@ -23945,6 +25765,7 @@ GameObject:
   - component: {fileID: 969871958}
   - component: {fileID: 969871957}
   - component: {fileID: 969871959}
+  - component: {fileID: 969871960}
   m_Layer: 0
   m_Name: SidewalkTile (26)
   m_TagString: Untagged
@@ -24042,6 +25863,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &969871960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969871955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &971609485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24194,6 +26035,7 @@ GameObject:
   - component: {fileID: 973173493}
   - component: {fileID: 973173492}
   - component: {fileID: 973173494}
+  - component: {fileID: 973173495}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -24291,6 +26133,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &973173495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973173490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &982693279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24373,6 +26235,7 @@ GameObject:
   - component: {fileID: 983179758}
   - component: {fileID: 983179757}
   - component: {fileID: 983179759}
+  - component: {fileID: 983179760}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -24470,6 +26333,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &983179760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983179755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &996644700
 GameObject:
   m_ObjectHideFlags: 0
@@ -24848,6 +26731,7 @@ GameObject:
   - component: {fileID: 1021671240}
   - component: {fileID: 1021671239}
   - component: {fileID: 1021671241}
+  - component: {fileID: 1021671242}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -24945,6 +26829,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1021671242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021671237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1025101918
 GameObject:
   m_ObjectHideFlags: 0
@@ -25384,6 +27288,7 @@ GameObject:
   - component: {fileID: 1037703365}
   - component: {fileID: 1037703364}
   - component: {fileID: 1037703366}
+  - component: {fileID: 1037703367}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -25481,6 +27386,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1037703367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037703362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1038581770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25563,6 +27488,7 @@ GameObject:
   - component: {fileID: 1038813979}
   - component: {fileID: 1038813978}
   - component: {fileID: 1038813980}
+  - component: {fileID: 1038813981}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -25660,6 +27586,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1038813981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038813976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1039213611
 GameObject:
   m_ObjectHideFlags: 0
@@ -25672,6 +27618,7 @@ GameObject:
   - component: {fileID: 1039213615}
   - component: {fileID: 1039213614}
   - component: {fileID: 1039213616}
+  - component: {fileID: 1039213617}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -25769,6 +27716,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1039213617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039213611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1039695545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26086,6 +28053,7 @@ GameObject:
   - component: {fileID: 1056707361}
   - component: {fileID: 1056707360}
   - component: {fileID: 1056707362}
+  - component: {fileID: 1056707363}
   m_Layer: 0
   m_Name: SidewalkTile (33)
   m_TagString: Untagged
@@ -26183,6 +28151,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1056707363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056707358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1058076098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26340,6 +28328,7 @@ GameObject:
   - component: {fileID: 1068784802}
   - component: {fileID: 1068784801}
   - component: {fileID: 1068784803}
+  - component: {fileID: 1068784804}
   m_Layer: 0
   m_Name: SidewalkTile (39)
   m_TagString: Untagged
@@ -26437,6 +28426,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1068784804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068784799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &1069611417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -26454,6 +28463,7 @@ GameObject:
   - component: {fileID: 1072358442}
   - component: {fileID: 1072358441}
   - component: {fileID: 1072358443}
+  - component: {fileID: 1072358444}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -26551,6 +28561,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1072358444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072358439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1074241236
 GameObject:
   m_ObjectHideFlags: 0
@@ -26649,6 +28679,7 @@ GameObject:
   - component: {fileID: 1075430431}
   - component: {fileID: 1075430430}
   - component: {fileID: 1075430432}
+  - component: {fileID: 1075430433}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -26746,6 +28777,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1075430433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075430428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1081399037
 GameObject:
   m_ObjectHideFlags: 0
@@ -26758,6 +28809,7 @@ GameObject:
   - component: {fileID: 1081399040}
   - component: {fileID: 1081399039}
   - component: {fileID: 1081399041}
+  - component: {fileID: 1081399042}
   m_Layer: 0
   m_Name: SidewalkTile (37)
   m_TagString: Untagged
@@ -26855,6 +28907,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1081399042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081399037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1085893670
 GameObject:
   m_ObjectHideFlags: 0
@@ -27232,6 +29304,7 @@ GameObject:
   - component: {fileID: 1106666536}
   - component: {fileID: 1106666535}
   - component: {fileID: 1106666537}
+  - component: {fileID: 1106666538}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -27329,6 +29402,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1106666538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106666533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1114983643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27469,6 +29562,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1120338905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1121164964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1157449931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1123075453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27602,7 +29700,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2017618194}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1124322312 stripped
 Transform:
@@ -27847,6 +29948,7 @@ GameObject:
   - component: {fileID: 1140559553}
   - component: {fileID: 1140559552}
   - component: {fileID: 1140559554}
+  - component: {fileID: 1140559555}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -27944,6 +30046,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1140559555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140559549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1143666185
 GameObject:
   m_ObjectHideFlags: 0
@@ -27956,6 +30078,7 @@ GameObject:
   - component: {fileID: 1143666188}
   - component: {fileID: 1143666187}
   - component: {fileID: 1143666189}
+  - component: {fileID: 1143666190}
   m_Layer: 0
   m_Name: SidewalkTile (35)
   m_TagString: Untagged
@@ -28053,6 +30176,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1143666190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143666185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1146140803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28116,7 +30259,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2016544446}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1146140804 stripped
 Transform:
@@ -28221,6 +30367,7 @@ GameObject:
   - component: {fileID: 1156103071}
   - component: {fileID: 1156103070}
   - component: {fileID: 1156103072}
+  - component: {fileID: 1156103073}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -28318,6 +30465,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1156103073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156103068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1157449931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28381,13 +30548,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1157449936}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1157449932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1157449931}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1157449936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121164964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1158518306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28610,6 +30800,7 @@ GameObject:
   - component: {fileID: 1162757070}
   - component: {fileID: 1162757069}
   - component: {fileID: 1162757071}
+  - component: {fileID: 1162757072}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -28707,6 +30898,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1162757072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162757067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1173114420
 GameObject:
   m_ObjectHideFlags: 0
@@ -28719,6 +30930,7 @@ GameObject:
   - component: {fileID: 1173114423}
   - component: {fileID: 1173114422}
   - component: {fileID: 1173114424}
+  - component: {fileID: 1173114425}
   m_Layer: 0
   m_Name: SidewalkTile (38)
   m_TagString: Untagged
@@ -28816,6 +31028,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1173114425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173114420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1178964147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28963,6 +31195,7 @@ GameObject:
   - component: {fileID: 1183624573}
   - component: {fileID: 1183624572}
   - component: {fileID: 1183624574}
+  - component: {fileID: 1183624575}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -29060,6 +31293,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1183624575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183624570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1184041752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29142,6 +31395,7 @@ GameObject:
   - component: {fileID: 1187094578}
   - component: {fileID: 1187094577}
   - component: {fileID: 1187094579}
+  - component: {fileID: 1187094580}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -29239,6 +31493,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1187094580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187094575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1188100865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29531,6 +31805,7 @@ GameObject:
   - component: {fileID: 1201345859}
   - component: {fileID: 1201345858}
   - component: {fileID: 1201345860}
+  - component: {fileID: 1201345861}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -29628,6 +31903,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1201345861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201345855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1207755177
 GameObject:
   m_ObjectHideFlags: 0
@@ -30143,7 +32438,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1816492824}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1228611551 stripped
 Transform:
@@ -30302,6 +32600,7 @@ GameObject:
   - component: {fileID: 1235003792}
   - component: {fileID: 1235003791}
   - component: {fileID: 1235003793}
+  - component: {fileID: 1235003794}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -30399,6 +32698,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1235003794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235003788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1235663705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30688,13 +33007,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1239486540}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1239486536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1239486535}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1239486540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731848187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1241563362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31293,6 +33635,7 @@ GameObject:
   - component: {fileID: 1257951665}
   - component: {fileID: 1257951664}
   - component: {fileID: 1257951666}
+  - component: {fileID: 1257951667}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -31390,6 +33733,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1257951667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257951661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1264022179
 GameObject:
   m_ObjectHideFlags: 0
@@ -31575,6 +33938,7 @@ GameObject:
   - component: {fileID: 1270123288}
   - component: {fileID: 1270123287}
   - component: {fileID: 1270123289}
+  - component: {fileID: 1270123290}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -31672,6 +34036,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1270123290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270123285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &1270798776 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -31870,6 +34254,7 @@ GameObject:
   - component: {fileID: 1282853608}
   - component: {fileID: 1282853607}
   - component: {fileID: 1282853609}
+  - component: {fileID: 1282853610}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -31967,6 +34352,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1282853610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282853604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1308544364
 GameObject:
   m_ObjectHideFlags: 0
@@ -32299,6 +34704,7 @@ GameObject:
   - component: {fileID: 1321268727}
   - component: {fileID: 1321268726}
   - component: {fileID: 1321268728}
+  - component: {fileID: 1321268729}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -32396,6 +34802,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1321268729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321268724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1322989092
 GameObject:
   m_ObjectHideFlags: 0
@@ -32408,6 +34834,7 @@ GameObject:
   - component: {fileID: 1322989095}
   - component: {fileID: 1322989094}
   - component: {fileID: 1322989096}
+  - component: {fileID: 1322989097}
   m_Layer: 0
   m_Name: SidewalkTile (1)
   m_TagString: Untagged
@@ -32505,6 +34932,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1322989097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322989092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1323446716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32719,13 +35166,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334326703}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1334326699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1334326698}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1334326703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899239277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1337037081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32789,13 +35259,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1337037086}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1337037082 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1337037081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1337037086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534182160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1340013072
 GameObject:
   m_ObjectHideFlags: 0
@@ -32882,6 +35375,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340013072}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1346756863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1695641078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1347775350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -32969,6 +35467,7 @@ GameObject:
   - component: {fileID: 1353667626}
   - component: {fileID: 1353667625}
   - component: {fileID: 1353667627}
+  - component: {fileID: 1353667628}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -33066,6 +35565,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1353667628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353667623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1354816156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33129,13 +35648,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1354816161}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1354816157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1354816156}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1354816161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268872754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1355464646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33549,6 +36091,7 @@ GameObject:
   - component: {fileID: 1368783505}
   - component: {fileID: 1368783504}
   - component: {fileID: 1368783506}
+  - component: {fileID: 1368783507}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -33646,6 +36189,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1368783507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368783502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1369513896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34079,6 +36642,7 @@ GameObject:
   - component: {fileID: 1398799822}
   - component: {fileID: 1398799821}
   - component: {fileID: 1398799823}
+  - component: {fileID: 1398799824}
   m_Layer: 0
   m_Name: SidewalkTile (25)
   m_TagString: Untagged
@@ -34176,6 +36740,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1398799824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398799819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &1403681307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -34384,13 +36968,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1412151885}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1412151881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1412151880}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1412151885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22079024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1414590153
 GameObject:
   m_ObjectHideFlags: 0
@@ -34403,6 +37010,7 @@ GameObject:
   - component: {fileID: 1414590156}
   - component: {fileID: 1414590155}
   - component: {fileID: 1414590157}
+  - component: {fileID: 1414590158}
   m_Layer: 0
   m_Name: SidewalkTile (22)
   m_TagString: Untagged
@@ -34500,6 +37108,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1414590158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414590153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1417172025
 GameObject:
   m_ObjectHideFlags: 0
@@ -34512,6 +37140,7 @@ GameObject:
   - component: {fileID: 1417172029}
   - component: {fileID: 1417172028}
   - component: {fileID: 1417172030}
+  - component: {fileID: 1417172031}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -34609,6 +37238,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1417172031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417172025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1417640321
 GameObject:
   m_ObjectHideFlags: 0
@@ -34621,6 +37270,7 @@ GameObject:
   - component: {fileID: 1417640324}
   - component: {fileID: 1417640323}
   - component: {fileID: 1417640325}
+  - component: {fileID: 1417640326}
   m_Layer: 0
   m_Name: SidewalkTile (35)
   m_TagString: Untagged
@@ -34718,6 +37368,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1417640326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417640321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &1419096112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1639433892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1421950651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35010,6 +37685,7 @@ GameObject:
   - component: {fileID: 1445349560}
   - component: {fileID: 1445349559}
   - component: {fileID: 1445349561}
+  - component: {fileID: 1445349562}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -35107,6 +37783,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1445349562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445349557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1454460886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35415,6 +38111,7 @@ GameObject:
   - component: {fileID: 1465837827}
   - component: {fileID: 1465837826}
   - component: {fileID: 1465837828}
+  - component: {fileID: 1465837829}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -35512,6 +38209,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1465837829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465837823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1466059438
 GameObject:
   m_ObjectHideFlags: 0
@@ -35524,6 +38241,7 @@ GameObject:
   - component: {fileID: 1466059441}
   - component: {fileID: 1466059440}
   - component: {fileID: 1466059442}
+  - component: {fileID: 1466059443}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -35621,6 +38339,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1466059443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466059438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1472363277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35703,6 +38441,7 @@ GameObject:
   - component: {fileID: 1472538920}
   - component: {fileID: 1472538919}
   - component: {fileID: 1472538921}
+  - component: {fileID: 1472538922}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -35800,6 +38539,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1472538922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472538917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1474599396
 GameObject:
   m_ObjectHideFlags: 0
@@ -36038,6 +38797,7 @@ GameObject:
   - component: {fileID: 1487062547}
   - component: {fileID: 1487062546}
   - component: {fileID: 1487062548}
+  - component: {fileID: 1487062549}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -36135,6 +38895,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1487062549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487062543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1494202649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36268,13 +39048,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495321988}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1495321984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1495321983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1495321988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939414325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1495382599
 GameObject:
   m_ObjectHideFlags: 0
@@ -36430,6 +39233,7 @@ GameObject:
   - component: {fileID: 1497322423}
   - component: {fileID: 1497322422}
   - component: {fileID: 1497322424}
+  - component: {fileID: 1497322425}
   m_Layer: 0
   m_Name: SidewalkTile (38)
   m_TagString: Untagged
@@ -36527,6 +39331,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1497322425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497322420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1499668864
 GameObject:
   m_ObjectHideFlags: 0
@@ -36695,6 +39519,7 @@ GameObject:
   - component: {fileID: 1500659510}
   - component: {fileID: 1500659509}
   - component: {fileID: 1500659511}
+  - component: {fileID: 1500659512}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -36792,6 +39617,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1500659512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500659507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1505296230
 GameObject:
   m_ObjectHideFlags: 0
@@ -36804,6 +39649,7 @@ GameObject:
   - component: {fileID: 1505296233}
   - component: {fileID: 1505296232}
   - component: {fileID: 1505296234}
+  - component: {fileID: 1505296235}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -36901,6 +39747,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1505296235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505296230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1506579101
 GameObject:
   m_ObjectHideFlags: 0
@@ -37069,6 +39935,7 @@ GameObject:
   - component: {fileID: 1509830422}
   - component: {fileID: 1509830421}
   - component: {fileID: 1509830423}
+  - component: {fileID: 1509830424}
   m_Layer: 0
   m_Name: SidewalkTile (37)
   m_TagString: Untagged
@@ -37166,6 +40033,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1509830424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509830419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1512333138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37388,6 +40275,7 @@ GameObject:
   - component: {fileID: 1518089336}
   - component: {fileID: 1518089335}
   - component: {fileID: 1518089337}
+  - component: {fileID: 1518089338}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -37485,6 +40373,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1518089338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518089333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1520623967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37723,6 +40631,7 @@ GameObject:
   - component: {fileID: 1528356689}
   - component: {fileID: 1528356688}
   - component: {fileID: 1528356690}
+  - component: {fileID: 1528356691}
   m_Layer: 0
   m_Name: SidewalkTile (38)
   m_TagString: Untagged
@@ -37820,6 +40729,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1528356691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528356686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1529789578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37902,6 +40831,7 @@ GameObject:
   - component: {fileID: 1533962126}
   - component: {fileID: 1533962125}
   - component: {fileID: 1533962127}
+  - component: {fileID: 1533962128}
   m_Layer: 0
   m_Name: SidewalkTile (23)
   m_TagString: Untagged
@@ -37999,6 +40929,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1533962128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533962123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1541045446
 GameObject:
   m_ObjectHideFlags: 0
@@ -38097,6 +41047,7 @@ GameObject:
   - component: {fileID: 1542068733}
   - component: {fileID: 1542068732}
   - component: {fileID: 1542068734}
+  - component: {fileID: 1542068735}
   m_Layer: 0
   m_Name: SidewalkTile (33)
   m_TagString: Untagged
@@ -38194,6 +41145,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1542068735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542068730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1542283407
 GameObject:
   m_ObjectHideFlags: 0
@@ -38206,6 +41177,7 @@ GameObject:
   - component: {fileID: 1542283410}
   - component: {fileID: 1542283409}
   - component: {fileID: 1542283411}
+  - component: {fileID: 1542283412}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -38303,6 +41275,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1542283412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542283407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1542474607
 GameObject:
   m_ObjectHideFlags: 0
@@ -38315,6 +41307,7 @@ GameObject:
   - component: {fileID: 1542474610}
   - component: {fileID: 1542474609}
   - component: {fileID: 1542474611}
+  - component: {fileID: 1542474612}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -38412,6 +41405,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1542474612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542474607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1544018780
 GameObject:
   m_ObjectHideFlags: 0
@@ -38424,6 +41437,7 @@ GameObject:
   - component: {fileID: 1544018783}
   - component: {fileID: 1544018782}
   - component: {fileID: 1544018784}
+  - component: {fileID: 1544018785}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -38521,6 +41535,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1544018785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544018780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &1551769276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 502809507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551769280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551769276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1555228268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38673,6 +41732,7 @@ GameObject:
   - component: {fileID: 1562383955}
   - component: {fileID: 1562383954}
   - component: {fileID: 1562383956}
+  - component: {fileID: 1562383957}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -38770,6 +41830,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1562383957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562383952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1564933537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38917,6 +41997,7 @@ GameObject:
   - component: {fileID: 1568995313}
   - component: {fileID: 1568995312}
   - component: {fileID: 1568995314}
+  - component: {fileID: 1568995315}
   m_Layer: 0
   m_Name: SidewalkTile (2)
   m_TagString: Untagged
@@ -39014,6 +42095,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1568995315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568995310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1569327759
 GameObject:
   m_ObjectHideFlags: 0
@@ -39613,6 +42714,7 @@ GameObject:
   - component: {fileID: 1590967855}
   - component: {fileID: 1590967854}
   - component: {fileID: 1590967856}
+  - component: {fileID: 1590967857}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -39710,6 +42812,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1590967857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590967851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1596635612
 GameObject:
   m_ObjectHideFlags: 0
@@ -39722,6 +42844,7 @@ GameObject:
   - component: {fileID: 1596635615}
   - component: {fileID: 1596635614}
   - component: {fileID: 1596635616}
+  - component: {fileID: 1596635617}
   m_Layer: 0
   m_Name: SidewalkTile (37)
   m_TagString: Untagged
@@ -39819,6 +42942,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1596635617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596635612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1602779659
 GameObject:
   m_ObjectHideFlags: 0
@@ -40122,6 +43265,7 @@ GameObject:
   - component: {fileID: 1613801812}
   - component: {fileID: 1613801811}
   - component: {fileID: 1613801813}
+  - component: {fileID: 1613801814}
   m_Layer: 0
   m_Name: SidewalkTile (36)
   m_TagString: Untagged
@@ -40219,6 +43363,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1613801814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613801809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1615715645
 GameObject:
   m_ObjectHideFlags: 0
@@ -40655,13 +43819,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1639433897}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1639433893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1639433892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1639433897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419096112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1639584841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41110,6 +44297,7 @@ GameObject:
   - component: {fileID: 1651295885}
   - component: {fileID: 1651295884}
   - component: {fileID: 1651295886}
+  - component: {fileID: 1651295887}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -41207,6 +44395,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1651295887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651295882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1652984290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41886,6 +45094,7 @@ GameObject:
   - component: {fileID: 1677312065}
   - component: {fileID: 1677312064}
   - component: {fileID: 1677312066}
+  - component: {fileID: 1677312067}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -41983,6 +45192,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1677312067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677312061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1678293020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42065,6 +45294,7 @@ GameObject:
   - component: {fileID: 1678753214}
   - component: {fileID: 1678753213}
   - component: {fileID: 1678753215}
+  - component: {fileID: 1678753216}
   m_Layer: 0
   m_Name: SidewalkTile (34)
   m_TagString: Untagged
@@ -42162,6 +45392,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1678753216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678753211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1681171910
 GameObject:
   m_ObjectHideFlags: 0
@@ -42174,6 +45424,7 @@ GameObject:
   - component: {fileID: 1681171913}
   - component: {fileID: 1681171912}
   - component: {fileID: 1681171914}
+  - component: {fileID: 1681171915}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -42271,6 +45522,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1681171915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681171910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1686236346
 GameObject:
   m_ObjectHideFlags: 0
@@ -42554,13 +45825,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695641083}
   m_SourcePrefab: {fileID: 100100000, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
 --- !u!4 &1695641079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1695641078}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1695641083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346756863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &1696646407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 835796928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696646411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696646407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1719921401
 GameObject:
   m_ObjectHideFlags: 0
@@ -42573,6 +45892,7 @@ GameObject:
   - component: {fileID: 1719921405}
   - component: {fileID: 1719921404}
   - component: {fileID: 1719921406}
+  - component: {fileID: 1719921407}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -42670,6 +45990,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1719921407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719921401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1720556336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43711,6 +47051,7 @@ GameObject:
   - component: {fileID: 1743019323}
   - component: {fileID: 1743019322}
   - component: {fileID: 1743019324}
+  - component: {fileID: 1743019325}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -43808,6 +47149,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1743019325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743019320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1746289423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43960,6 +47321,7 @@ GameObject:
   - component: {fileID: 1752190460}
   - component: {fileID: 1752190459}
   - component: {fileID: 1752190461}
+  - component: {fileID: 1752190462}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -44057,6 +47419,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1752190462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752190457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1753606229
 GameObject:
   m_ObjectHideFlags: 0
@@ -44779,6 +48161,7 @@ GameObject:
   - component: {fileID: 1773484681}
   - component: {fileID: 1773484680}
   - component: {fileID: 1773484682}
+  - component: {fileID: 1773484683}
   m_Layer: 0
   m_Name: SidewalkTile (36)
   m_TagString: Untagged
@@ -44876,6 +48259,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1773484683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773484678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1774184932
 GameObject:
   m_ObjectHideFlags: 0
@@ -44974,6 +48377,7 @@ GameObject:
   - component: {fileID: 1774588132}
   - component: {fileID: 1774588131}
   - component: {fileID: 1774588133}
+  - component: {fileID: 1774588134}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -45071,6 +48475,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1774588134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774588129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1774631127
 GameObject:
   m_ObjectHideFlags: 0
@@ -45440,6 +48864,7 @@ GameObject:
   - component: {fileID: 1782664086}
   - component: {fileID: 1782664085}
   - component: {fileID: 1782664087}
+  - component: {fileID: 1782664088}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -45537,6 +48962,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1782664088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782664083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1783789796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45856,6 +49301,7 @@ GameObject:
   - component: {fileID: 1793847289}
   - component: {fileID: 1793847288}
   - component: {fileID: 1793847290}
+  - component: {fileID: 1793847291}
   m_Layer: 0
   m_Name: SidewalkTile (26)
   m_TagString: Untagged
@@ -45953,6 +49399,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1793847291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793847286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1794076449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46590,6 +50056,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 179155205}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1813551346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 845157952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813551350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813551346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!1 &1816492820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1228611550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1816492824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816492820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1823108673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47119,6 +50635,7 @@ GameObject:
   - component: {fileID: 1845320270}
   - component: {fileID: 1845320269}
   - component: {fileID: 1845320271}
+  - component: {fileID: 1845320272}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -47216,6 +50733,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1845320272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845320267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1853185891
 GameObject:
   m_ObjectHideFlags: 0
@@ -47228,6 +50765,7 @@ GameObject:
   - component: {fileID: 1853185894}
   - component: {fileID: 1853185893}
   - component: {fileID: 1853185895}
+  - component: {fileID: 1853185896}
   m_Layer: 0
   m_Name: SidewalkTile (24)
   m_TagString: Untagged
@@ -47325,6 +50863,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1853185896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853185891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1854259568
 GameObject:
   m_ObjectHideFlags: 0
@@ -47337,6 +50895,7 @@ GameObject:
   - component: {fileID: 1854259571}
   - component: {fileID: 1854259570}
   - component: {fileID: 1854259572}
+  - component: {fileID: 1854259573}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -47434,6 +50993,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1854259573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854259568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1856644099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47753,6 +51332,7 @@ GameObject:
   - component: {fileID: 1859079144}
   - component: {fileID: 1859079143}
   - component: {fileID: 1859079145}
+  - component: {fileID: 1859079146}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -47850,6 +51430,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1859079146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859079140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1859363184
 GameObject:
   m_ObjectHideFlags: 0
@@ -47862,6 +51462,7 @@ GameObject:
   - component: {fileID: 1859363187}
   - component: {fileID: 1859363186}
   - component: {fileID: 1859363188}
+  - component: {fileID: 1859363189}
   m_Layer: 0
   m_Name: SidewalkTile (2)
   m_TagString: Untagged
@@ -47959,6 +51560,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1859363189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859363184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1859399137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48657,6 +52278,7 @@ GameObject:
   - component: {fileID: 1886958296}
   - component: {fileID: 1886958295}
   - component: {fileID: 1886958297}
+  - component: {fileID: 1886958298}
   m_Layer: 0
   m_Name: SidewalkTile (5)
   m_TagString: Untagged
@@ -48754,6 +52376,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1886958298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886958292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1886994270
 GameObject:
   m_ObjectHideFlags: 0
@@ -48766,6 +52408,7 @@ GameObject:
   - component: {fileID: 1886994273}
   - component: {fileID: 1886994272}
   - component: {fileID: 1886994274}
+  - component: {fileID: 1886994275}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -48863,6 +52506,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1886994275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886994270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1887095242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49311,6 +52974,7 @@ GameObject:
   - component: {fileID: 1909864265}
   - component: {fileID: 1909864264}
   - component: {fileID: 1909864266}
+  - component: {fileID: 1909864267}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -49408,6 +53072,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1909864267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909864262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1919338889
 GameObject:
   m_ObjectHideFlags: 0
@@ -49648,6 +53332,7 @@ GameObject:
   - component: {fileID: 1926824743}
   - component: {fileID: 1926824742}
   - component: {fileID: 1926824744}
+  - component: {fileID: 1926824745}
   m_Layer: 0
   m_Name: SidewalkTile (33)
   m_TagString: Untagged
@@ -49745,6 +53430,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1926824745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926824740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1931816737
 GameObject:
   m_ObjectHideFlags: 0
@@ -49901,6 +53606,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 1932503788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1935424071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935424072}
+  m_Layer: 0
+  m_Name: NPCSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935424072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935424071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 144171943}
+  - {fileID: 877057885}
+  m_Father: {fileID: 624784680}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1936624020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50192,6 +53930,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949290848}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1951041858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 936305928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1951041862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951041858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &1954900188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50557,6 +54320,7 @@ GameObject:
   - component: {fileID: 1972188803}
   - component: {fileID: 1972188802}
   - component: {fileID: 1972188804}
+  - component: {fileID: 1972188805}
   m_Layer: 0
   m_Name: SidewalkTile (10)
   m_TagString: Untagged
@@ -50654,6 +54418,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972188805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972188800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1975075658
 GameObject:
   m_ObjectHideFlags: 0
@@ -50915,6 +54699,7 @@ GameObject:
   - component: {fileID: 1986287984}
   - component: {fileID: 1986287983}
   - component: {fileID: 1986287985}
+  - component: {fileID: 1986287986}
   m_Layer: 0
   m_Name: SidewalkTile (19)
   m_TagString: Untagged
@@ -51012,6 +54797,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1986287986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986287981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1990017920
 GameObject:
   m_ObjectHideFlags: 0
@@ -51320,6 +55125,7 @@ GameObject:
   - component: {fileID: 2000249955}
   - component: {fileID: 2000249954}
   - component: {fileID: 2000249956}
+  - component: {fileID: 2000249957}
   m_Layer: 0
   m_Name: SidewalkTile (9)
   m_TagString: Untagged
@@ -51417,6 +55223,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2000249957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000249952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2000380936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51574,6 +55400,7 @@ GameObject:
   - component: {fileID: 2010248828}
   - component: {fileID: 2010248827}
   - component: {fileID: 2010248829}
+  - component: {fileID: 2010248830}
   m_Layer: 0
   m_Name: SidewalkTile (18)
   m_TagString: Untagged
@@ -51671,6 +55498,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2010248830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010248824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2011617987
 GameObject:
   m_ObjectHideFlags: 0
@@ -51683,6 +55530,7 @@ GameObject:
   - component: {fileID: 2011617990}
   - component: {fileID: 2011617989}
   - component: {fileID: 2011617991}
+  - component: {fileID: 2011617992}
   m_Layer: 0
   m_Name: SidewalkTile (25)
   m_TagString: Untagged
@@ -51780,6 +55628,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2011617992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011617987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2012066489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51936,6 +55804,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
   m_PrefabInstance: {fileID: 2014623744}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2016544442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1146140803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016544446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016544442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2017530941
 GameObject:
   m_ObjectHideFlags: 0
@@ -51972,6 +55865,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1320, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2017618190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5760326042690145021, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
+  m_PrefabInstance: {fileID: 1124322311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2017618194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017618190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &2022738505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -52366,6 +56284,7 @@ GameObject:
   - component: {fileID: 2046599464}
   - component: {fileID: 2046599463}
   - component: {fileID: 2046599465}
+  - component: {fileID: 2046599466}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -52463,6 +56382,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2046599466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046599461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2046680677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52932,6 +56871,7 @@ GameObject:
   - component: {fileID: 2076370827}
   - component: {fileID: 2076370826}
   - component: {fileID: 2076370828}
+  - component: {fileID: 2076370829}
   m_Layer: 0
   m_Name: SidewalkTile (3)
   m_TagString: Untagged
@@ -53029,6 +56969,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2076370829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076370823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &2092045382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1596960014817070983, guid: 138815b5de1b8c144a5150e2db560a38, type: 3}
@@ -53046,6 +57006,7 @@ GameObject:
   - component: {fileID: 2092708313}
   - component: {fileID: 2092708312}
   - component: {fileID: 2092708314}
+  - component: {fileID: 2092708315}
   m_Layer: 0
   m_Name: SidewalkTile (20)
   m_TagString: Untagged
@@ -53143,6 +57104,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2092708315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092708309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2096218411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53311,6 +57292,7 @@ GameObject:
   - component: {fileID: 2103529881}
   - component: {fileID: 2103529880}
   - component: {fileID: 2103529882}
+  - component: {fileID: 2103529883}
   m_Layer: 0
   m_Name: SidewalkTile (39)
   m_TagString: Untagged
@@ -53408,6 +57390,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2103529883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103529878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2105023720
 GameObject:
   m_ObjectHideFlags: 0
@@ -53420,6 +57422,7 @@ GameObject:
   - component: {fileID: 2105023724}
   - component: {fileID: 2105023723}
   - component: {fileID: 2105023725}
+  - component: {fileID: 2105023726}
   m_Layer: 0
   m_Name: SidewalkTile
   m_TagString: Untagged
@@ -53517,6 +57520,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2105023726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105023720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2106864222
 GameObject:
   m_ObjectHideFlags: 0
@@ -53529,6 +57552,7 @@ GameObject:
   - component: {fileID: 2106864225}
   - component: {fileID: 2106864224}
   - component: {fileID: 2106864226}
+  - component: {fileID: 2106864227}
   m_Layer: 0
   m_Name: SidewalkTile (4)
   m_TagString: Untagged
@@ -53626,6 +57650,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2106864227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106864222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2110446962
 GameObject:
   m_ObjectHideFlags: 0
@@ -53896,6 +57940,7 @@ GameObject:
   - component: {fileID: 2119314458}
   - component: {fileID: 2119314457}
   - component: {fileID: 2119314459}
+  - component: {fileID: 2119314460}
   m_Layer: 0
   m_Name: SidewalkTile (11)
   m_TagString: Untagged
@@ -53993,6 +58038,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2119314460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119314454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2121120066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54357,6 +58422,7 @@ GameObject:
   - component: {fileID: 2140350383}
   - component: {fileID: 2140350382}
   - component: {fileID: 2140350384}
+  - component: {fileID: 2140350385}
   m_Layer: 0
   m_Name: SidewalkTile (21)
   m_TagString: Untagged
@@ -54454,6 +58520,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2140350385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140350379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &2143780297
 PrefabInstance:
   m_ObjectHideFlags: 0

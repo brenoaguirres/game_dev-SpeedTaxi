@@ -64,8 +64,6 @@ namespace SpeedTaxi.Player
         }
         private void Update()
         {
-            //_vehiclePhysics.EngineInput = _playerInputs.Accelerate;
-            //_vehiclePhysics.WheelsInput = _playerInputs.Steer;
 
             if (!_initialized) return;
 
