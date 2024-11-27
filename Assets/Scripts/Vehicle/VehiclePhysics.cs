@@ -13,6 +13,7 @@ namespace SpeedTaxi.Vehicle
         private float _engineInput = 0f;
         [Range(-1f, 1f)]
         private float _wheelsInput = 0f;
+        private bool _handbrakeInput = false;
 
         // -----> ACCELERATION
         // Maximum move speed achieved by vehicle
@@ -33,6 +34,12 @@ namespace SpeedTaxi.Vehicle
         // -----> ROTATION
         // Amount of rotation per second
         private float _steerAngle = 35f;
+        
+        // -----> BRAKING
+        // For storing default steer angle when handbraking
+        private float _defaultSteerAngle = 0f;
+        // For multiplying steer angle when handbraking
+        private float _steerAngleBrakeMultiplier = 2f;
         #endregion
 
         #region PROPERTIES
@@ -51,6 +58,12 @@ namespace SpeedTaxi.Vehicle
             get { return _wheelsInput; }
             set { _wheelsInput = value; }
         }
+
+        public bool HandbrakeInput
+        {
+            get { return _handbrakeInput; }
+            set { _handbrakeInput = value; }
+        }
         #endregion
 
         #region UNITY CALLBACKS
@@ -61,7 +74,7 @@ namespace SpeedTaxi.Vehicle
 
         public void FixedUpdate()
         {
-            //ResolveHandBrake();
+            ResolveHandbrake();
             ResolveEngine();
             ResolveWheels();
         }
@@ -70,11 +83,17 @@ namespace SpeedTaxi.Vehicle
         #region CUSTOM METHODS
         public void InitializeVehicle(Rigidbody rigidbody)
         {
+            // components
             _vehicleRigidbody = rigidbody;
+
+            // settings
+            _defaultSteerAngle = _steerAngle;
         }
 
         public void ResolveEngine()
         {
+            if (HandbrakeInput) return;
+            
             if (EngineInput >= 0.05f) // Forward Acceleration
             {
                 // Accelerating
@@ -145,6 +164,51 @@ namespace SpeedTaxi.Vehicle
             }
         }
 
+        public void ResolveHandbrake()
+        {
+            if (HandbrakeInput)
+            {
+                // drifting
+                if (_steerAngle < _defaultSteerAngle + 0.05f && _steerAngle > _defaultSteerAngle + -0.05f)
+                    _steerAngle *= _steerAngleBrakeMultiplier;
+                
+                // when forward motion
+                if (_vehicleRigidbody.linearVelocity.z > 0.05f)
+                {
+                    _currentMoveSpeed += (-_brakeForce * Time.fixedDeltaTime);
+                    _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
+                }
+                else if (_vehicleRigidbody.linearVelocity.z < -0.05) // when rev motion
+                {
+                    _currentMoveSpeed += (_brakeForce * Time.fixedDeltaTime);
+                    _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        _vehicleRigidbody.transform.forward.x * _currentMoveSpeed,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
+                    );
+                }
+                else // when 
+                {
+                    _currentMoveSpeed = 0f;
+                    _vehicleRigidbody.linearVelocity = new Vector3(
+                        0f,
+                        _vehicleRigidbody.linearVelocity.y, 
+                        0f
+                    );
+                }
+            }
+            else
+            {
+                _steerAngle = _defaultSteerAngle;
+            }
+        }
+        
         public void ResolveWheels()
         {
             if (WheelsInput >= 0.05f && _vehicleRigidbody.linearVelocity.magnitude > 0.1f)

@@ -1,10 +1,10 @@
 using SpeedTaxi.Player;
 using UnityEngine;
 
-public class PlayerStateAccelerate : PlayerState
+public class PlayerStateBrake : PlayerState
 {
     #region CONSTRUCTOR
-    public PlayerStateAccelerate(PlayerStateMachine currentContext, PlayerStateFactory stateFactory) : base(currentContext, stateFactory) { }
+    public PlayerStateBrake(PlayerStateMachine currentContext, PlayerStateFactory stateFactory) : base(currentContext, stateFactory) { }
     #endregion
 
     #region PLAYERSTATE METHODS
@@ -24,10 +24,10 @@ public class PlayerStateAccelerate : PlayerState
     }
     public override void CheckSwitchStates()
     {
-        if (Ctx.Inputs.Handbrake)
-            SwitchState(Factory.Brake());
-        if (Ctx.Inputs.Accelerate <= 0.05f || Ctx.Inputs.Accelerate >= -0.05f)
+        if (!Ctx.Inputs.Handbrake && (Ctx.Inputs.Accelerate <= 0.05f || Ctx.Inputs.Accelerate >= -0.05f))
             SwitchState(Factory.Idle());
+        if (!Ctx.Inputs.Handbrake && (Ctx.Inputs.Accelerate > 0.05f || Ctx.Inputs.Accelerate < -0.05f))
+            SwitchState(Factory.Accelerate());
     }
 
     public override void UpdateState()

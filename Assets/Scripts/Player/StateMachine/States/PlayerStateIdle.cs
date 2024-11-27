@@ -23,6 +23,8 @@ namespace SpeedTaxi.Player
         }
         public override void CheckSwitchStates()
         {
+            if (Ctx.Inputs.Handbrake)
+                SwitchState(Factory.Brake());
             if (Ctx.Inputs.Accelerate > 0.05f || Ctx.Inputs.Accelerate < -0.05f)
                 SwitchState(Factory.Accelerate());
         }
@@ -33,6 +35,7 @@ namespace SpeedTaxi.Player
 
             Ctx.VehiclePhysics.EngineInput = Ctx.Inputs.Accelerate;
             Ctx.VehiclePhysics.WheelsInput = Ctx.Inputs.Steer;
+            Ctx.VehiclePhysics.HandbrakeInput = Ctx.Inputs.Handbrake;
         }
         public override void FixedUpdateState()
         {

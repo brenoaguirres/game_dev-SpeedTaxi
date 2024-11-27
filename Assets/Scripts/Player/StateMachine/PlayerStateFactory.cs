@@ -34,6 +34,11 @@ namespace SpeedTaxi.Player
             return new PlayerStateAccelerate(_ctx, this);
         }
 
+        public PlayerState Brake()
+        {
+            return new PlayerStateBrake(_ctx, this);
+        }
+        
         public PlayerState Skill()
         {
             return new PlayerStateSkill(_ctx, this);
