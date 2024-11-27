@@ -4,6 +4,7 @@ using Unity.AI.Navigation;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.InputSystem.HID;
 
 namespace SpeedTaxi.NPCSystem
 {
@@ -28,7 +29,7 @@ namespace SpeedTaxi.NPCSystem
         private NavMeshSurface _surface;
 
         // Destination Settings
-        private float _destinationMaxRange = 50f;
+        private float _destinationMaxRange = 150f;
         private bool _generatingDestination = false;
         #endregion
 
@@ -114,13 +115,14 @@ namespace SpeedTaxi.NPCSystem
                 _agent = GetComponentInParent<NavMeshAgent>();
             if (_surface == null)
             {
-                _surface = FindNavMeshSurface();
+                _surface = GenericUtilities.Instance.FindNavMeshSurface(_surfaceObjectName);
             }
 
             // state init
             _citizenState = State.IDLE;
         }
         
+        // AI
         private NavMeshSurface FindNavMeshSurface()
         {
             List<NavMeshSurface> surfaceCollection = FindObjectsOfType<NavMeshSurface>().ToList();
@@ -143,7 +145,6 @@ namespace SpeedTaxi.NPCSystem
             }
         }
 
-        // AI
         private bool GenerateAIDestination()
         {
             Vector3 randomPoint = transform.position + new Vector3(
@@ -169,11 +170,14 @@ namespace SpeedTaxi.NPCSystem
 
             while (_generatingDestination)
             {
-                if (GenerateAIDestination())
+                Vector3 destination = GenericUtilities.Instance.GenerateDestinationOnSurface(transform, _destinationMaxRange, _surface);
+                if (destination != Vector3.zero)
+                {
+                    _agent.SetDestination(destination);
                     _generatingDestination = false;
+                }
                 yield return null;
             }
-
         }
         #endregion
     }
