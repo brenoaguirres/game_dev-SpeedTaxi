@@ -1,16 +1,44 @@
+using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class UIChecklist : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    #region REFERENCES
+    [Header("Checklist Settings")]
+    
+    [Tooltip("Data on objectives to fill for the current level.")]
+    [SerializeField] private List<ObjectiveData> _data = new();
+    
+    [Tooltip("Prefab to spawn checklist items.")]
+    [SerializeField] private GameObject _uiChecklistItemPrefab;
+    
+    private List<UIChecklistItem> _checklistItems = new();
+    #endregion
 
-    // Update is called once per frame
-    void Update()
+    #region UNITY CALLBACKS
+    private void Awake()
     {
-        
+        InitializeUIData();
     }
+    #endregion
+    
+    #region CUSTOM METHODS
+    private void InitializeUIData()
+    {
+        foreach (ObjectiveData entry in _data)
+        {
+            GameObject instance = Instantiate(
+                _uiChecklistItemPrefab, 
+                transform.position, 
+                Quaternion.identity, 
+                transform
+                );
+
+            UIChecklistItem item = instance.GetComponent<UIChecklistItem>();
+            item.ToggleObjective(false);
+            item.SetDescription(entry._description);
+        }
+    }
+    #endregion
 }

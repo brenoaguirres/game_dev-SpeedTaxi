@@ -34,7 +34,7 @@ namespace SpeedTaxi.ScoreSystem
         #region CUSTOM METHODS
         public void GenerateScore()
         {
-            _score.AddScore( _scoreMultiplier * GlobalConstants.BASE_SCORE );
+            _score.AddScore(_scoreMultiplier * GlobalConstants.BASE_SCORE);
         }
 
         public void InitializeScore(int scoreMultiplier)
