@@ -23,6 +23,8 @@ namespace SpeedTaxi.ScoreSystem
         #region UNITY CALLBACKS
         private void Start()
         {
+            _score = FindObjectOfType<Score>();
+
             if (_score == null)
             {
                 Debug.LogError($"Score Component reference not assigned on '{gameObject.name}' ScoreSupplier.");

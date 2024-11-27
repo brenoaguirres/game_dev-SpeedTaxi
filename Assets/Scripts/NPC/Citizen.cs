@@ -5,6 +5,8 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem.HID;
+using SpeedTaxi.ScoreSystem;
+using UnityEngine.Events;
 
 namespace SpeedTaxi.NPCSystem
 {
@@ -20,6 +22,10 @@ namespace SpeedTaxi.NPCSystem
 
     public class Citizen : MonoBehaviour
     {
+        #region CONSTANTS
+        private const int KILL_SCORE_MULTIPLIER = 5;
+        #endregion
+
         #region FIELDS
         [Header("AI Settings")]
         [SerializeField] private string _surfaceObjectName = "NPCNavMesh"; 
@@ -31,10 +37,22 @@ namespace SpeedTaxi.NPCSystem
         // Destination Settings
         private float _destinationMaxRange = 150f;
         private bool _generatingDestination = false;
+
+        // Health
+        private Health _health;
+        private float _maxDeathTimer = 10f;
+        private float _deadTimer;
+
+        // Score
+        private ScoreSupplier _scoreSupplier;
         #endregion
 
         #region STATE
         [SerializeField] private State _citizenState = State.RESPAWN;
+        #endregion
+
+        #region UNITY EVENTS
+        public UnityEvent onCitizenDeath;
         #endregion
 
         #region UNITY CALLBACKS
@@ -100,7 +118,9 @@ namespace SpeedTaxi.NPCSystem
         }
         private void OnDeadState()
         {
-
+            _deadTimer -= Time.deltaTime;
+            if (_deadTimer < 0)
+                gameObject.SetActive(false);
         }
         private void OnRespawnState()
         {
@@ -112,56 +132,42 @@ namespace SpeedTaxi.NPCSystem
         {
             // refs init
             if (_agent == null)
-                _agent = GetComponentInParent<NavMeshAgent>();
+                _agent = GetComponent<NavMeshAgent>();
             if (_surface == null)
             {
                 _surface = GenericUtilities.Instance.FindNavMeshSurface(_surfaceObjectName);
             }
+            if (_health == null)
+            {
+                _health = GetComponent<Health>();
+                _health.onDie.AddListener(Die);
+            }
+            if (_scoreSupplier == null)
+            {
+                _scoreSupplier = GetComponentInChildren<ScoreSupplier>();
+                _scoreSupplier.InitializeScore(KILL_SCORE_MULTIPLIER);
+            }
+
+            // Reset 
+            _health.Alive = true;
+            _deadTimer = _maxDeathTimer;
+            _agent.enabled = true;
+            if (_agent.hasPath)
+                _agent.ResetPath();
 
             // state init
             _citizenState = State.IDLE;
+
         }
         
-        // AI
-        private NavMeshSurface FindNavMeshSurface()
+        // Behavior
+        private void Die()
         {
-            List<NavMeshSurface> surfaceCollection = FindObjectsOfType<NavMeshSurface>().ToList();
-            NavMeshSurface returnSurface = null;
+            _citizenState = State.DEAD;
+            onCitizenDeath?.Invoke();
 
-            foreach (NavMeshSurface surface in surfaceCollection)
-            {
-                if (surface.gameObject.name == _surfaceObjectName)
-                    returnSurface = surface; 
-            }
-
-            if (returnSurface != null)
-            {
-                return returnSurface;
-            }
-            else
-            {
-                Debug.LogError($"No navmesh surface found on {gameObject.name}");
-                return null;
-            }
-        }
-
-        private bool GenerateAIDestination()
-        {
-            Vector3 randomPoint = transform.position + new Vector3(
-                Random.Range(-_destinationMaxRange, _destinationMaxRange), _surface.transform.position.y, Random.Range(-_destinationMaxRange, _destinationMaxRange)
-                );
-
-            NavMeshHit hit;
-            if (NavMesh.SamplePosition(randomPoint, out hit, _destinationMaxRange, NavMesh.AllAreas))
-            {
-                _agent.SetDestination(hit.position);
-                Debug.Log(hit);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            // disable navmesh
+            _agent.enabled = false;
         }
 
         public IEnumerator GetDestination()

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8858218560349482137}
   - component: {fileID: 4470655261467817629}
   - component: {fileID: 1932627645613270717}
+  - component: {fileID: 2531229283570509721}
+  - component: {fileID: 3307651332054174415}
   m_Layer: 0
   m_Name: TeddyBearCitizen
   m_TagString: Untagged
@@ -32,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8388089309014634486}
-  - {fileID: 4751876142122263239}
+  - {fileID: 6876806024154541472}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4470655261467817629
@@ -84,6 +86,50 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2531229283570509721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929092947234988138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52741e9a25b9ac24f9b7d9ba4511452e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDie:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3307651332054174415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929092947234988138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f280e80eebbfe4fa1d2a1f6e93564c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _surfaceObjectName: NPCNavMesh
+  _citizenState: 5
+  onCitizenDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4029636903990373689}
+        m_TargetAssemblyTypeName: SpeedTaxi.ScoreSystem.ScoreSupplier, Assembly-CSharp
+        m_MethodName: GenerateScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4803535689895702868
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +238,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &7034922679500825099
+--- !u!1 &7254014005924479464
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,22 +246,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4751876142122263239}
-  - component: {fileID: 5951220431978247952}
+  - component: {fileID: 6876806024154541472}
+  - component: {fileID: 4029636903990373689}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4751876142122263239
+--- !u!4 &6876806024154541472
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7034922679500825099}
+  m_GameObject: {fileID: 7254014005924479464}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -224,17 +270,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8858218560349482137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5951220431978247952
+--- !u!114 &4029636903990373689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7034922679500825099}
+  m_GameObject: {fileID: 7254014005924479464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26f280e80eebbfe4fa1d2a1f6e93564c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b2f726df4e7c564b911d4691c17f171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _surfaceObjectName: NPCNavMesh
-  _citizenState: 5
+  _scoreMultiplier: 0
+  _score: {fileID: 0}

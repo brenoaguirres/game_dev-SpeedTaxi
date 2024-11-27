@@ -23805,11 +23805,6 @@ MonoBehaviour:
   m_IgnoreFromBuild: 0
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
---- !u!4 &877057885 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-  m_PrefabInstance: {fileID: 3858376803350275811}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &878461800
 GameObject:
   m_ObjectHideFlags: 0
@@ -53488,7 +53483,6 @@ Transform:
   m_Children:
   - {fileID: 1103613613}
   - {fileID: 144171943}
-  - {fileID: 877057885}
   m_Father: {fileID: 624784680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1936624020
@@ -58891,63 +58885,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &3858376803350275811
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1935424072}
-    m_Modifications:
-    - target: {fileID: 1929092947234988138, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_Name
-      value: TeddyBearCitizen
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 299.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 11.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 149.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858218560349482137, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 59af51f7b1a15844f90e15ee783dd2f4, type: 3}
 --- !u!33 &4194688183078091279
 MeshFilter:
   m_ObjectHideFlags: 0
