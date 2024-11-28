@@ -32,6 +32,8 @@ namespace SpeedTaxi.NPCSystem
         #region UNITY CALLBACKS
         private void OnCollisionEnter(Collision collision)
         {
+            if (!Alive) return;
+
             if (collision.gameObject.CompareTag(TagManager.ProjectTags.Player.ToString()))
             {
                 float dot = Vector3.Dot(collision.GetContact(0).point, collision.gameObject.transform.forward);

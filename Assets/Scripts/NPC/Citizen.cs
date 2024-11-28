@@ -1,10 +1,7 @@
 using UnityEngine.AI;
 using UnityEngine;
 using Unity.AI.Navigation;
-using System.Linq;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.InputSystem.HID;
 using SpeedTaxi.ScoreSystem;
 using SpeedTaxi.VFX;
 using UnityEngine.Events;
@@ -134,6 +131,11 @@ namespace SpeedTaxi.NPCSystem
             _deadTimer -= Time.deltaTime;
             if (_deadTimer < 0)
                 gameObject.SetActive(false);
+            
+            if (transform.position.y < 9)
+            {
+
+            }
         }
         private void OnRespawnState()
         {
@@ -173,6 +175,7 @@ namespace SpeedTaxi.NPCSystem
             _health.Alive = true;
             _deadTimer = _maxDeathTimer;
             _agent.enabled = true;
+            _rigidbody.isKinematic = true;
             if (_agent.hasPath)
                 _agent.ResetPath();
 
@@ -190,12 +193,18 @@ namespace SpeedTaxi.NPCSystem
             // vfx
             _particleManager.GetVFX(VFX_BLOODSPLATTER).Play();
             StartCoroutine(StartBloodPuddle());
-            
+
             // disable navmesh
-            _rigidbody.AddForce(_carCollisionForce * Vector3.up, ForceMode.Impulse);
             _agent.enabled = false;
+            _rigidbody.isKinematic = false;
+
+            transform.position = transform.position + new Vector3(0, 1, 0);
+            _rigidbody.AddForce(_carCollisionForce * Vector3.up, ForceMode.Impulse);
             
         }
+
+
+        // AI
 
         public IEnumerator GetDestination()
         {
@@ -220,7 +229,7 @@ namespace SpeedTaxi.NPCSystem
 
             while (!vfxStarted)
             {
-                if (_rigidbody.velocity.magnitude <= 0.5f)
+                if (_rigidbody.linearVelocity.magnitude <= 0.05f)
                 {
                     vfxStarted = true;
                     _particleManager.GetVFX(VFX_BLOODPUDDLE).Play();

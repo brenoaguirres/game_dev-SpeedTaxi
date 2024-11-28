@@ -33608,6 +33608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264022180}
+  - component: {fileID: 1264022181}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -33632,6 +33633,27 @@ Transform:
   - {fileID: 518291886}
   m_Father: {fileID: 650630685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1264022181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264022179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1030, y: 2, z: 1030}
+  m_Center: {x: 680, y: 9, z: 600}
 --- !u!1001 &1264398419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58626,6 +58648,10 @@ PrefabInstance:
       propertyPath: _objectiveItemPrefab
       value: 
       objectReference: {fileID: 8555398469783925736, guid: eec4d3b6a8b03314f812a590d7a4a14f, type: 3}
+    - target: {fileID: 8275962016082063664, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 8869444622036356501, guid: cebfb71eca327ac488d85b40a50f339b, type: 3}
       propertyPath: m_Name
       value: TaxiCab
