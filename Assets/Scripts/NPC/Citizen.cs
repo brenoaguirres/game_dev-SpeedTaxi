@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem.HID;
 using SpeedTaxi.ScoreSystem;
+using SpeedTaxi.VFX;
 using UnityEngine.Events;
 
 namespace SpeedTaxi.NPCSystem
@@ -23,7 +24,12 @@ namespace SpeedTaxi.NPCSystem
     public class Citizen : MonoBehaviour
     {
         #region CONSTANTS
+        // Score
         private const int KILL_SCORE_MULTIPLIER = 5;
+        
+        // VFX
+        private const string VFX_BLOODSPLATTER = "bloodsplatter";
+        private const string VFX_BLOODPUDDLE = "bloodpuddle";
         #endregion
 
         #region FIELDS
@@ -34,6 +40,13 @@ namespace SpeedTaxi.NPCSystem
         private NavMeshAgent _agent;
         private NavMeshSurface _surface;
 
+        // Physics
+        private Rigidbody _rigidbody;
+        private float _carCollisionForce = 15f;
+        
+        // VFX
+        private ParticleManager _particleManager;
+        
         // Destination Settings
         private float _destinationMaxRange = 150f;
         private bool _generatingDestination = false;
@@ -148,6 +161,14 @@ namespace SpeedTaxi.NPCSystem
                 _scoreSupplier.InitializeScore(KILL_SCORE_MULTIPLIER);
             }
 
+            if (_rigidbody == null)
+            {
+                _rigidbody = GetComponent<Rigidbody>();
+            }
+            
+            if (_particleManager == null)
+                _particleManager = GetComponentInChildren<ParticleManager>();
+
             // Reset 
             _health.Alive = true;
             _deadTimer = _maxDeathTimer;
@@ -166,8 +187,14 @@ namespace SpeedTaxi.NPCSystem
             _citizenState = State.DEAD;
             onCitizenDeath?.Invoke();
 
+            // vfx
+            _particleManager.GetVFX(VFX_BLOODSPLATTER).Play();
+            StartCoroutine(StartBloodPuddle());
+            
             // disable navmesh
+            _rigidbody.AddForce(_carCollisionForce * Vector3.up, ForceMode.Impulse);
             _agent.enabled = false;
+            
         }
 
         public IEnumerator GetDestination()
@@ -184,6 +211,23 @@ namespace SpeedTaxi.NPCSystem
                 }
                 yield return null;
             }
+        }
+        
+        // VFX
+        public IEnumerator StartBloodPuddle()
+        {
+            bool vfxStarted = false;
+
+            while (!vfxStarted)
+            {
+                if (_rigidbody.velocity.magnitude <= 0.5f)
+                {
+                    vfxStarted = true;
+                    _particleManager.GetVFX(VFX_BLOODPUDDLE).Play();
+                }
+                yield return new WaitForSeconds(0.5f);
+            }
+            yield return null;
         }
         #endregion
     }
