@@ -1,6 +1,9 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using Delegates;
+using Unity.VisualScripting;
 
 namespace SpeedTaxi.VFX
 {
@@ -28,6 +31,50 @@ namespace SpeedTaxi.VFX
         public void Play()
         {
             _particleVFX.Play();
+        }
+
+        public IEnumerator PlayDelayed(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            _particleVFX.Play();
+        }
+
+        public IEnumerator PlayWhen(GenericDelegates.BooleanDelegate function)
+        {
+            bool vfxStarted = false;
+
+            while (!vfxStarted)
+            {
+                vfxStarted = function();
+                if (vfxStarted)
+                {
+                    _particleVFX.Play();
+                }
+                yield return new WaitForSeconds(0.5f);
+            }
+            yield return null;
+        }
+        
+        public IEnumerator PlayWhen(GenericDelegates.BooleanDelegate function, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            bool vfxStarted = false;
+
+            while (!vfxStarted)
+            {
+                vfxStarted = function();
+                if (vfxStarted)
+                {
+                    _particleVFX.Play();
+                }
+                yield return new WaitForSeconds(0.5f);
+            }
+            yield return null;
+        }
+
+        public void PlayOnSurface(Vector3 surfaceNormal)
+        {
+            
         }
         #endregion
     }
