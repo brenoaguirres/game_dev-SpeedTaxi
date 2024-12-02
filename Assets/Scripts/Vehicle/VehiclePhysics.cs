@@ -109,7 +109,7 @@ namespace SpeedTaxi.Vehicle
             else if (EngineInput <= -0.05f) // Reverse Acceleration
             {
                 // Braking
-                if (_vehicleRigidbody.linearVelocity.z > 0f)
+                if (_currentMoveSpeed > 0f)
                 {
                     _currentMoveSpeed += (-_brakeForce * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
@@ -119,7 +119,7 @@ namespace SpeedTaxi.Vehicle
                         _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
                     );
                 } // Reverse
-                else if (_vehicleRigidbody.linearVelocity.z <= 0f)
+                else if (_currentMoveSpeed <= 0f)
                 {
                     _currentMoveSpeed += (-_decelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
@@ -132,7 +132,7 @@ namespace SpeedTaxi.Vehicle
             }
             else // Inertia
             {
-                if (_vehicleRigidbody.linearVelocity.z > 0.05f) // When F
+                if (_currentMoveSpeed > 1f) // When F
                 {
                     _currentMoveSpeed += (-_inertiaDecelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);
@@ -142,7 +142,7 @@ namespace SpeedTaxi.Vehicle
                         _vehicleRigidbody.transform.forward.z * _currentMoveSpeed
                     );
                 }
-                else if (_vehicleRigidbody.linearVelocity.z < -0.05f) // When R
+                else if (_currentMoveSpeed < -1f) // When R
                 {
                     _currentMoveSpeed += (_inertiaDecelerationFactor * Time.fixedDeltaTime);
                     _currentMoveSpeed = Mathf.Clamp(_currentMoveSpeed, _maxReverseSpeed, _maxMoveSpeed);

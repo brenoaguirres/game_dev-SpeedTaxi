@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace SpeedTaxi.Player
 {
     public abstract class PlayerState
@@ -40,6 +42,7 @@ namespace SpeedTaxi.Player
         public void UpdateStates()
         {
             UpdateState();
+            //Debug.Log(this.GetType().ToString()); // For debugging states
             if (_currentSubState != null)
             {
                 _currentSubState.UpdateStates();
